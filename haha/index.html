@@ -1,0 +1,2778 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- To allow zoom in mobile browser, maximum-scale to 3 & user-scalable to 1 have been set in form live page and thank you page. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="cleartype" content="on">
+    <meta property="og:title" content="Zoho form testing">
+    <meta property="og:type" content="website">
+    <meta property="og:url"
+        content="https://forms.zohopublic.com/emertxe/form/Zohoformtesting/formperma/4U04tt464U09dXfrgM36rZmrjjF9uAj_OWf_3Nyl4Gg">
+    <meta property="og:description" content="Testing form"><!-- Google Tag Manager -->
+    <script>
+        try {
+            var isGTMEnabled = "false";
+            var isGAEnabled = "true";
+            if (isGTMEnabled == "true") {
+                window.dataLayer = window.dataLayer || [];
+                if (isGAEnabled == "true") {
+                    window.dataLayer.push({
+                        'gtm.allowlist': ['gas', 'ua', 'v', 'c', 'e', 'u', 'gaawc', 'gaawe']
+                    });
+                } else {
+                    window.dataLayer.push({
+                        'gtm.allowlist': ['gas', 'ua', 'v', 'c', 'e', 'u']
+                    });
+                }
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || [];
+                    w[l].push({
+                        'gtm.start': new Date().getTime(),
+                        event: 'gtm.js'
+                    });
+                    var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s),
+                        dl = l != 'dataLayer' ? '&l=' + l : '';
+                    j.async = true;
+                    j.src = // No I18N
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                    f.parentNode.insertBefore(j, f); // No I18N
+                })(window, document, 'script', 'dataLayer', "");
+            }
+        } catch (e) {}
+    </script><!-- End Google Tag Manager -->
+
+    <link href="https://static.zohocdn.com/forms/images/favicon.f337ba4df49f92f0a9af92e5d6e998bf.ico"
+        rel="shortcut icon">
+    <title>Zoho form testing</title>
+    <link rel="stylesheet"
+        href="https://static.zohocdn.com/forms/css/formsthirdparty.2755260429cd02c98112dac6f4b5b8ce.css">
+    <link rel="stylesheet" href="https://static.zohocdn.com/forms/css/formslive.82231feacf8a0145994d2e5f424e612d.css">
+    <link href="/formstatic/fonts?family=Open+Sans:400,700i,700,600i,600,400i,300i,300" rel="stylesheet"
+        type="text/css">
+    <link href="https://static.zohocdn.com/forms/css/themes/custom.b7543675af2e22b838defd4c8e9864dc.css"
+        rel="stylesheet" type="text/css">
+
+    <link href="https://static.zohocdn.com/forms/css/themes/media.15263692ab8b439c6f381a5b54d9c5ff.css" rel="stylesheet"
+        type="text/css">
+    <link href="https://static.zohocdn.com/forms/css/themes/media/customMedia.bdbbc9b6f964ee4f4c1d1debd83b0068.css"
+        rel="stylesheet" type="text/css">
+    <script>
+        var i18n = {
+            "noentry": "No entry",
+            "nofields": "No fields are available",
+            "asterisksymbol": "*",
+            "entervalue": "Enter\x20a\x20value\x20for\x20this\x20field.",
+            "entervaluenumber": "Enter\x20a\x20number\x20for\x20this\x20field.",
+            "entervaluecaptcha": "Enter\x20a\x20value\x20for\x20this\x20field.",
+            "entervaluerecaptcha": "Confirm\x20you\x27re\x20not\x20a\x20robot.",
+            "recaptchaerror": "reCAPTCHA\x20validation\x20failed.",
+            "entervalidmail": "Enter\x20a\x20valid\x20email\x20address.\x20\x28eg\x3A\x20yourname\x40domain.com\x29",
+            "entervalidnumber": "Enter\x20a\x20numeric\x20value.\x20",
+            "invaliddecimal": "Enter\x20a\x20valid\x20decimal\x20number.\x20",
+            "invalidcurrency": "Enter\x20a\x20numeric\x20value.\x20\x28currency\x29",
+            "invalidurl": "Enter\x20a\x20valid\x20website.\x20\x28eg\x3A\x20www.domain.com\x29",
+            "invalidphone": "Enter\x20a\x20valid\x20phone\x20number.\x20Allowed\x20special\x20characters\x3A\x20\x2B\x20\x2D\x20.\x20\x28\x20\x29\x20space",
+            "invalidinitialphone": "Enter\x20a\x20phone\x20number\x20that\x20doesnt\x20begin\x20with\x20\x2B\x20or\x20\x29.",
+            "invalidUSAphone": "Enter\x20a\x20valid\x20phone\x20number.",
+            "invalidpatternformat": "Entry\x20does\x20not\x20match\x20the\x20required\x20format.",
+            "invalidletterregexformat": "Only\x20letters\x20are\x20allowed.",
+            "invalidletterandnumregexformat": "Only\x20letters\x20and\x20numbers\x20allowed.",
+            "invalidcountrycode": "Enter\x20a\x20valid\x20country\x20code.",
+            "selectchoice": "Select\x20a\x20choice.",
+            "chooseoption": "Choose\x20your\x20option\x28s\x29.",
+            "selectdate": "Choose\x20a\x20date.",
+            "selectcountrycode": "Select\x20a\x20country\x20code.",
+            "selectrating": "Specify\x20your\x20rating\x20here.",
+            "selecttime": "Choose\x20a\x20time.\x20",
+            "checkfield": "Select\x20this\x20option.",
+            "choosefile": "Upload\x20a\x20file\x20here.\x20",
+            "contactadmin": "Please\x20contact\x20your\x20form\x20administrator\x20for\x20further\x20assistance.",
+            "incompletesignature": "Add\x20your\x20signature\x20here.",
+            "matrixchoicemandatory": "Choose\x20at\x20least\x20one\x20answer\x20for\x20each\x20question.",
+            "uploadsize": "File\x20size\x20should\x20be\x20less\x20than\x20\x7B0\x7D.",
+            "chooseval": "Choose\x20a\x20rating\x20on\x20this\x20scale.",
+            "select": "\x2DSelect\x2D",
+            "wrongverificationcode": "That\x20CAPTCHA\x20was\x20incorrect.\x20",
+            "incompleteinputtime": "Enter\x20time\x20in\x20\x28HH\x3AMM\x20AM\x2FPM\x29\x20format.",
+            "incompleteinputtimetwentyfour": "Enter\x20time\x20in\x20\x28HH\x3AMM\x29\x20format.",
+            "fileupload": "There\x20was\x20an\x20error\x20while\x20uploading\x20file.\x20Please\x20try\x20again.",
+            "formclosed": "The\x20form\x20you\x20are\x20trying\x20to\x20access\x20is\x20closed.",
+            "donationhintmsgmin": "Min.\x20amount\x20is\x20",
+            "donationhintmsgmax": "Max.\x20amount\x20is",
+            "donationhintmsgminmax": "Enter\x20a\x20value\x20between\x20\x7B0\x7D\x20and\x20\x7B1\x7D",
+            "pymnterrminamnt": "Minimum amount is {0}",
+            "pymnterrmaxamnt": "Maximum amount is {0}",
+            "paymentdecimallen": "You\x20are\x20only\x20allowed\x20to\x20enter\x20\x7B0\x7D\x20digits.",
+            "entervalidamount": "Enter\x20a\x20valid\x20amount.",
+            "moredecimalplaces": "You\x20are\x20allowed\x20to\x20enter\x20only\x20up\x20to\x20\x7B0\x7D\x20decimals.",
+            "maxchoicelimit": "You\x20can\x20choose\x20only\x20up\x20to\x20\x7B0\x7D\x20choice\x28s\x29.",
+            "minchoicelimit": "You\x20must\x20choose\x20at\x20least\x20\x7B0\x7D\x20choice\x28s\x29.",
+            "allowedimg": "Only\x20the\x20following\x20file\x20types\x20are\x20supported\x3A\x20\x7B0\x7D",
+            "alloweddomain": "Only\x20the\x20following\x20email\x20domains\x20are\x20allowed\x3A\x20\x7B0\x7D",
+            "restricteddomain": "The\x20following\x20domains\x20have\x20been\x20restricted\x3A\x20\x7B0\x7D",
+            "checktcfield": "You\x20must\x20accept\x20the\x20terms\x20and\x20conditions.\x20",
+            "chooseimg": "Choose\x20an\x20image\x20of\x20your\x20choice.",
+            "subformentriesminlimit": "Please\x20enter\x20at\x20least\x20\x7B0\x7D\x20entries.",
+            "subformentriesminlimit1": "Please\x20enter\x20at\x20least\x201\x20entry.",
+            "subformentriesmaxlimit": "Only\x20\x7B0\x7D\x20entries\x20are\x20allowed\x20in\x20this\x20section.",
+            "subformentriesmaxlimit1": "Only\x201\x20entry\x20is\x20allowed\x20in\x20this\x20section.",
+            "formPaymentError": "Data added successfully! For some reason the Payment hasn't gone through. Please contact admin to resolve the problem.",
+            "invalidentriesfound": "Invalid entries found.",
+            "correctentries": "Please check your entries and try again.",
+            "erroroccurred": "Error Occurred!",
+            "unabletoconnecttosheetserver": "Unable to connect to Zoho Sheet server.",
+            "internalserver": "Error occurred. Please write to us at support@zohoforms.com",
+            "paymenttransaction": "Transaction\x20failed",
+            "errorinformsubmission": "Error occurred while submitting Form.",
+            "somethingwentwrong": "Something went wrong while submitting the form",
+            "checkfieldconfiguration": "Please check the field configurations and try again.",
+            "zohocrmmintwochars": "Please enter minimum of 2 characters.",
+            "zohocrmnoentries": "No matches found.",
+            "encrypterroradmin": "This form contains encrypted fields. Please upgrade to access this form.",
+            "oopserrmsg": "Oops! Something went wrong here",
+            "formdataencryptionprocessing": "No action can be performed on this form, as field encryption is in progress.",
+            "razorpayminamount": "Minimun amount is 1 INR.",
+            "filescountexceed": "You\x20can\x20only\x20upload\x20\x7B0\x7D\x20files.",
+            "filescountminlimiterror": "Upload\x20at\x20least\x20\x7B0\x7D\x20files.",
+            "fileuploadext": "The following file types are supported: {0}",
+            "fileuploadmaxsize": "Max size allowed:",
+            "single_fu_instruction": "Choose File",
+            "multiple_fu_instruction": "Choose File(s)",
+            "drag_file_instruction": "Drag & Drop (or)",
+            "noresultsfound": "No results found.",
+            "paymentnotprocessed": "Your\x20payment\x20could\x20not\x20be\x20processed.",
+            "paymentbrwsrcompatibility": "You\x20are\x20using\x20an\x20unsupported\x20browser.",
+            "maxcharlimit": "You\x20can\x20only\x20enter\x20\x7B0\x7D\x20characters.",
+            "mincharlimit": "Enter\x20at\x20least\x20\x7B0\x7D\x20characters.",
+            "maxwordlimit": "You\x20can\x20only\x20enter\x20\x7B0\x7D\x20words.",
+            "minwordlimit": "Enter\x20at\x20least\x20\x7B0\x7D\x20words.\x20",
+            "maxdatelimit": "Choose\x20a\x20date\x20on\x20or\x20before\x20\x7B0\x7D.",
+            "mindatelimit": "Choose\x20a\x20date\x20on\x20or\x20after\x20\x7B0\x7D.",
+            "disabledayslimit": "You\x20are\x20not\x20allowed\x20to\x20pick\x20this\x20\x7B0\x7D.",
+            "mindigitslimit": "You\x20must\x20enter\x20at\x20least\x20\x7B0\x7D\x20digits.",
+            "maxdigitslimit": "Maximum\x20limit\x3A\x20\x7B0\x7D\x20digits.",
+            "mindatetimelimit": "Choose\x20a\x20date\x2Dtime\x20from\x20\x7B0\x7D.",
+            "maxdatetimelimit": "You\x20can\x20choose\x20a\x20date\x2Dtime\x20till\x20\x7B0\x7D.",
+            "invaliddate": "Enter\x20a\x20valid\x20date.",
+            "invaliddatetime": "Enter\x20a\x20valid\x20date\x20and\x20time.",
+            "minvalerror": "Enter\x20a\x20value\x20greater\x20than\x20or\x20equal\x20to\x20\x7B0\x7D.",
+            "maxvalerror": "Enter\x20a\x20value\x20less\x20than\x20or\x20equal\x20to\x20\x7B0\x7D.",
+            "minonecharlimit": "Enter\x20at\x20least\x201\x20character.",
+            "minonewordlimit": "Enter\x20at\x20least\x201\x20word.",
+            "maxonecharlimit": "You\x20can\x20enter\x20only\x201\x20character.",
+            "maxonewordlimit": "You\x20can\x20enter\x20only\x201\x20word.",
+            "paymentretry": "Do\x20you\x20still\x20wish\x20to\x20retry\x3F",
+            "multilinewords": "words",
+            "multilinechars": "characters",
+            "emailsdonotmatch": "Emails\x20do\x20not\x20match",
+            "uploadservererror": "An\x20error\x20occurred\x20while\x20uploading\x20the\x20file\x20to\x20the\x20server.",
+            "saveandresume_email_success": "Link\x20emailed\x20successfully\x21",
+            "saveandresume_email_sent": "Link\x20already\x20emailed\x20to",
+            "saveandresume_email_error": "An error occurred. Please try again after sometime.",
+            "phonenosdonotmatch": "Phone\x20numbers\x20do\x20not\x20match.",
+            "subformcarderrgeneral": "An\x20error\x20occurred.\x20Please\x20check\x20your\x20entry.",
+            "phoneformatnumeronlyerror": "Enter\x20only\x20numbers.",
+            "matrixtextinputlimit": "Value\x20must\x20be\x20between\x20\x7B0\x7D\x20\x2D\x20\x7B1\x7D\x20characters.",
+            "matrixchoicetextboxmandatory": "Enter\x20at\x20least\x20one\x20answer\x20for\x20each\x20question.",
+            "sfuniquecheckerr": "No\x20duplicate\x20values\x20allowed\x20for\x20this\x20field.",
+            "sfcombineduniquecheckerr": "A\x20combination\x20of\x20this\x20entry\x20already\x20exists.",
+            "invalidotp": "Entered\x20OTP\x20is\x20invalid.",
+            "captchaempty": "Captcha\x20value\x20cannot\x20be\x20empty",
+            "matrixchoicecustommandatory": "Choose\x20required\x20value\x28s\x29\x20for\x20this\x20field.",
+            "matrixchoicecustomtextboxmandatory": "Enter\x20required\x20value\x28s\x29\x20for\x20this\x20field."
+        };
+    </script>
+    <script defer="" type="text/javascript"
+        src="https://static.zohocdn.com/forms/js/formstplivejs.5598e1e583c1d09fc270b76b7bc87fed.js"></script>
+    <script defer="" type="text/javascript"
+        src="https://static.zohocdn.com/forms/js/formsthirdpartylivejs.fa80d21e90eb2a92193fc45ef5617573.js"></script>
+    <script defer="" type="text/javascript"
+        src="https://static.zohocdn.com/forms/js/formscommonlive.44b96ae1ce7e52c53acc5a00a526c901.js"></script>
+    <script defer="" type="text/javascript"
+        src="https://static.zohocdn.com/forms/js/formslive.3161d616900c83ac79b373ce9bd7fd16.js"></script>
+    <script defer="" type="text/javascript"
+        src="https://static.zohocdn.com/forms/js/formsselect.b9384dcadf2bc7b3816527891df599f6.js"></script>
+    <script defer="" type="text/javascript"
+        src="https://static.zohocdn.com/forms/js/zfresize.00f033861733e7a636bc014e38451518.js"></script>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body data-new-gr-c-s-check-loaded="14.1094.0" data-gr-ext-installed=""><input type="hidden" name="antispam-url"
+        value="https://as.zoho.com/cf/checkurl.cf?URL=" id="antispam-url-id">
+    <script>
+        var CustomDateLocale = {
+
+            "en-GB": { //English(UK) // No I18N
+                closeText: "Done", // No I18N
+                prevText: "Prev", // No I18N
+                nextText: "Next", // No I18N
+                currentText: "Today", // No I18N
+                monthNames: ["January", "February", "March", "April", "May", "June", // No I18N
+                    "July", "August", "September", "October", "November", "December"
+                ], // No I18N
+                monthNamesShort: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", // No I18N
+                    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+                ], // No I18N
+                dayNames: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], // No I18N
+                dayNamesShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], // No I18N
+                dayNamesMin: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"], // No I18N
+                weekHeader: "Wk", // No I18N
+                showMonthAfterYear: false,
+                AM: "AM", // No I18N
+                PM: "PM", // No I18N
+                yearSuffix: ""
+            }
+
+        };
+    </script>
+    <script type="module">ZFLive.isOldUploadType = false;
+    ZFLive.portalName = "emertxe";
+    ZFLive.formLinkName = "Zohoformtesting";
+    ZFLive.isClientPortalPrivateForm = false;
+    ZFLive.clientPortalID = ""; 
+    if(ZFLive.isClientPortalPrivateForm){
+    ZFLive.clientPortalID = "null";  
+    }
+    ZFLive.isUploadServerJsonFlowEnabled = true;</script><!-- Google Tag Manager (noscript) -->
+
+    <!-- $Id: $ -->
+    <svg style="display: none;">
+        <symbol id="icon-plus" viewBox="0 0 24 24">
+            <path
+                d="M19 11h-6v-6c0-0.55-0.45-1-1-1s-1 0.45-1 1v6h-6c-0.55 0-1 0.45-1 1s0.45 1 1 1h6v6c0 0.55 0.45 1 1 1s1-0.45 1-1v-6h6c0.55 0 1-0.45 1-1s-0.45-1-1-1z">
+            </path>
+        </symbol>
+
+        <symbol id="icon-edit" viewBox="0 0 16 16">
+            <path
+                d="M13.5 0c1.381 0 2.5 1.119 2.5 2.5 0 0.563-0.186 1.082-0.5 1.5l-1 1-3.5-3.5 1-1c0.418-0.314 0.937-0.5 1.5-0.5zM1 11.5l-1 4.5 4.5-1 9.25-9.25-3.5-3.5-9.25 9.25zM11.181 5.681l-7 7-0.862-0.862 7-7 0.862 0.862z">
+            </path>
+        </symbol>
+
+        <symbol id="icon-download-new" viewBox="0 0 24 24">
+            <path
+                d="M21 14c-0.6 0-1 0.4-1 1v4c0 0.6-0.4 1-1 1h-14c-0.6 0-1-0.4-1-1v-4c0-0.6-0.4-1-1-1s-1 0.4-1 1v4c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-4c0-0.6-0.4-1-1-1z">
+            </path>
+            <path
+                d="M11.3 15.7c0.1 0.1 0.2 0.2 0.3 0.2 0.1 0.1 0.3 0.1 0.4 0.1s0.3 0 0.4-0.1c0.1-0.1 0.2-0.1 0.3-0.2l5-5c0.4-0.4 0.4-1 0-1.4s-1-0.4-1.4 0l-3.3 3.3v-9.6c0-0.6-0.4-1-1-1s-1 0.4-1 1v9.6l-3.3-3.3c-0.4-0.4-1-0.4-1.4 0s-0.4 1 0 1.4l5 5z">
+            </path>
+        </symbol>
+
+        <symbol id="icon-info" viewBox="0 0 32 32">
+            <path
+                d="M16 1c-8.271 0-15 6.729-15 15s6.729 15 15 15 15-6.729 15-15-6.729-15-15-15zM16 29.154c-7.253 0-13.154-5.901-13.154-13.154s5.901-13.154 13.154-13.154 13.154 5.901 13.154 13.154-5.901 13.154-13.154 13.154z">
+            </path>
+            <path
+                d="M17.783 10.019c0 0.853-0.691 1.544-1.544 1.544s-1.544-0.691-1.544-1.544c0-0.853 0.691-1.544 1.544-1.544s1.544 0.691 1.544 1.544z">
+            </path>
+            <path
+                d="M15.832 14.081c-0.509 0-0.923 0.413-0.923 0.923v7.846c0 0.509 0.413 0.923 0.923 0.923s0.923-0.413 0.923-0.923v-7.846c0-0.51-0.413-0.923-0.923-0.923z">
+            </path>
+        </symbol>
+        <symbol id="icon-camera" viewBox="0 0 32 32">
+            <path
+                d="M28.736 27.776h-25.472c-1.344 0-2.432-1.088-2.432-2.432v-15.36c0-1.344 1.088-2.432 2.432-2.432h5.056c0.512 0 0.896-0.32 1.088-0.768l0.448-1.28c0.32-0.96 1.28-1.664 2.304-1.664h7.68c1.024 0 1.984 0.64 2.304 1.664l0.448 1.28c0.128 0.448 0.576 0.768 1.088 0.768h5.056c1.344 0 2.432 1.088 2.432 2.432v15.36c0 1.344-1.088 2.432-2.432 2.432zM3.264 8.896c-0.64 0-1.152 0.512-1.152 1.152v15.36c0 0.64 0.512 1.152 1.152 1.152h25.472c0.64 0 1.152-0.512 1.152-1.152v-15.36c0-0.64-0.512-1.152-1.152-1.152h-5.056c-1.024 0-1.984-0.64-2.304-1.664l-0.448-1.28c-0.128-0.448-0.576-0.768-1.088-0.768h-7.68c-0.512 0-0.896 0.32-1.088 0.768l-0.448 1.28c-0.32 0.96-1.28 1.664-2.304 1.664h-5.056z">
+            </path>
+            <path
+                d="M16 25.344c-4.416 0-8-3.584-8-8s3.584-8.064 8-8.064c4.416 0 8 3.584 8 8s-3.584 8.064-8 8.064zM16 10.56c-3.712 0-6.72 3.008-6.72 6.72s3.008 6.72 6.72 6.72c3.712 0 6.72-3.008 6.72-6.72 0-3.648-3.008-6.72-6.72-6.72z">
+            </path>
+            <path
+                d="M27.584 12.096c0 0.46-0.372 0.832-0.832 0.832s-0.832-0.373-0.832-0.832c0-0.46 0.372-0.832 0.832-0.832s0.832 0.373 0.832 0.832z">
+            </path>
+        </symbol>
+
+        <symbol id="icon-upload" viewBox="0 0 32 32">
+            <path
+                d="M25.664 26.688h-19.328c-2.432 0-4.352-1.6-4.352-3.584v-5.568c0-0.384 0.256-0.64 0.64-0.64s0.64 0.256 0.64 0.64v5.568c0 1.28 1.408 2.304 3.072 2.304h19.328c1.728 0 3.072-1.024 3.072-2.304v-5.568c0-0.384 0.256-0.64 0.64-0.64s0.64 0.256 0.64 0.64v5.568c0 1.984-1.984 3.584-4.352 3.584z">
+            </path>
+            <path
+                d="M16 19.392c-0.384 0-0.64-0.256-0.64-0.64v-14.272c0-0.384 0.256-0.64 0.64-0.64s0.64 0.256 0.64 0.64v14.272c0 0.384-0.256 0.64-0.64 0.64z">
+            </path>
+            <path
+                d="M21.312 9.664c-0.192 0-0.32-0.064-0.448-0.192l-4.864-4.8-4.864 4.8c-0.256 0.256-0.64 0.256-0.896 0s-0.256-0.64 0-0.896l5.312-5.248c0.256-0.256 0.64-0.256 0.896 0l5.312 5.248c0.256 0.256 0.256 0.64 0 0.896-0.128 0.128-0.256 0.192-0.448 0.192z">
+            </path>
+        </symbol>
+        <symbol id="icon-tick" viewBox="0 0 32 32">
+            <path
+                d="M11.5 26.1c-0.3 0-0.5-0.1-0.7-0.3l-8.7-8.7c-0.4-0.4-0.4-1 0-1.4s1-0.4 1.4 0l8 8 17.1-17.2c0.4-0.4 1-0.4 1.4 0s0.4 1 0 1.4l-17.8 17.9c-0.2 0.2-0.5 0.3-0.7 0.3 0 0 0 0 0 0z">
+            </path>
+        </symbol>
+
+
+        <symbol id="icon-refresh-svg" viewBox="0 0 32 32">
+            <path
+                d="M27.5 16.7c-0.6 0-1-0.4-1-1 0-5.8-4.7-10.6-10.6-10.6-3.2 0-6.1 1.4-8.2 3.8-0.4 0.4-1 0.5-1.4 0.1-0.3-0.3-0.4-0.9 0-1.3 2.4-2.9 5.9-4.6 9.7-4.6 6.9 0 12.6 5.6 12.6 12.6-0.1 0.5-0.5 1-1.1 1z">
+            </path>
+            <path
+                d="M16 28.3c-7 0-12.6-5.7-12.6-12.6 0-0.6 0.4-1 1-1s1 0.4 1 1c0 5.8 4.7 10.6 10.6 10.6 2.9 0 5.8-1.2 7.8-3.4 0.4-0.4 1-0.4 1.4-0.1s0.4 1 0.1 1.4c-2.5 2.6-5.8 4.1-9.3 4.1z">
+            </path>
+            <path
+                d="M1.6 19.6c-0.2 0-0.4-0.1-0.6-0.2-0.5-0.3-0.6-0.9-0.2-1.4l3-4.2c0.2-0.3 0.5-0.4 0.8-0.4v0c0.3 0 0.6 0.2 0.8 0.4l3 4.2c0.3 0.5 0.2 1.1-0.2 1.4-0.5 0.3-1.1 0.2-1.4-0.2l-2.2-3.1-2.2 3.1c-0.1 0.2-0.4 0.4-0.8 0.4z">
+            </path>
+            <path
+                d="M27.4 18.8v0c-0.3 0-0.6-0.2-0.8-0.4l-3-4.3c-0.3-0.5-0.2-1.1 0.2-1.4 0.5-0.3 1.1-0.2 1.4 0.2l2.2 3.2 2.2-3.2c0.3-0.5 0.9-0.6 1.4-0.2 0.5 0.3 0.6 0.9 0.2 1.4l-3 4.3c-0.1 0.2-0.4 0.4-0.8 0.4z">
+            </path>
+        </symbol>
+
+
+        <symbol id="icon-webcam" viewBox="0 0 32 32">
+            <path
+                d="M16.4 23.5c-5.8 0-10.5-4.7-10.5-10.5s4.7-10.5 10.5-10.5 10.5 4.7 10.5 10.5c0 5.8-4.8 10.5-10.5 10.5zM16.4 3.5c-5.2 0-9.5 4.3-9.5 9.5s4.3 9.5 9.5 9.5c5.2 0 9.5-4.3 9.5-9.5s-4.3-9.5-9.5-9.5z">
+            </path>
+            <path
+                d="M16.4 18c-3 0-5.5-2.5-5.5-5.5v-8c0-0.3 0.2-0.5 0.5-0.5s0.5 0.2 0.5 0.5v8c0 2.5 2 4.5 4.5 4.5s4.5-2 4.5-4.5v-8c0-0.3 0.2-0.5 0.5-0.5s0.5 0.2 0.5 0.5v8c0 3-2.5 5.5-5.5 5.5z">
+            </path>
+            <path
+                d="M16.4 15.5c-1.7 0-3.1-1.4-3.1-3.1s1.4-3.1 3.1-3.1c1.7 0 3.1 1.4 3.1 3.1s-1.4 3.1-3.1 3.1zM16.4 10.4c-1.1 0-2.1 0.9-2.1 2.1s0.9 2.1 2.1 2.1 2.1-0.9 2.1-2.1-1-2.1-2.1-2.1z">
+            </path>
+            <path
+                d="M14.4 26.5c-0.3 0-0.5-0.2-0.5-0.5v-3c0-0.3 0.2-0.5 0.5-0.5s0.5 0.2 0.5 0.5v3c0 0.3-0.3 0.5-0.5 0.5z">
+            </path>
+            <path
+                d="M18.4 26.5c-0.3 0-0.5-0.2-0.5-0.5v-3c0-0.3 0.2-0.5 0.5-0.5s0.5 0.2 0.5 0.5v3c0 0.3-0.3 0.5-0.5 0.5z">
+            </path>
+            <path
+                d="M25.1 29.4h-17.4c-1 0-1.8-0.8-1.8-1.7s0.8-1.7 1.8-1.7h17.4c1 0 1.8 0.8 1.8 1.7s-0.8 1.7-1.8 1.7zM7.7 27c-0.4 0-0.8 0.3-0.8 0.7s0.4 0.7 0.8 0.7h17.4c0.4 0 0.8-0.3 0.8-0.7s-0.4-0.7-0.8-0.7h-17.4z">
+            </path>
+        </symbol>
+        <symbol id="icon-close" viewBox="0 0 20 20">
+            <path
+                d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z">
+            </path>
+        </symbol>
+
+
+        <symbol id="icon-capture" viewBox="0 0 32 32">
+            <path
+                d="M28.736 7.616h-5.056c-0.512 0-0.896-0.32-1.088-0.768l-0.448-1.28c-0.32-0.96-1.28-1.664-2.304-1.664h-7.68c-1.024 0-1.984 0.64-2.304 1.664l-0.448 1.28c-0.128 0.448-0.576 0.768-1.088 0.768h-5.056c-1.344 0-2.432 1.088-2.432 2.432v15.36c0 1.344 1.088 2.432 2.432 2.432h25.472c1.344 0 2.432-1.088 2.432-2.432v-15.36c0-1.344-1.088-2.432-2.432-2.432zM16 24.704c-4.096 0-7.36-3.328-7.36-7.36s3.264-7.424 7.36-7.424 7.36 3.328 7.36 7.36c0 4.096-3.264 7.424-7.36 7.424zM26.752 12.992c-0.448 0-0.832-0.384-0.832-0.832s0.384-0.832 0.832-0.832c0.448 0 0.832 0.384 0.832 0.832 0.064 0.448-0.32 0.832-0.832 0.832z">
+            </path>
+        </symbol>
+        <symbol id="icon-cameraStrike" viewBox="0 0 32 32">
+            <path
+                d="M27.968 27.328h-24.192c-1.28 0-2.368-1.024-2.368-2.368v-14.528c0-1.28 1.024-2.368 2.368-2.368h1.536c0.384 0 1.28 0.256 1.28 0.64s-0.256 0.64-0.64 0.64h-2.176c-0.576 0-1.088 0.448-1.088 1.088v14.592c0 0.576 0.448 1.088 1.088 1.088h24.192c0.128 0 0.256 0 0.384-0.064 0.32-0.128 0.704 0 0.832 0.32s0 0.704-0.32 0.832c-0.256 0.064-0.576 0.128-0.896 0.128z">
+            </path>
+            <path
+                d="M29.696 24.32c-0.384 0-0.64-0.256-0.64-0.64v-13.248c0-0.576-0.448-1.088-1.088-1.088h-4.8c-1.024 0-1.856-0.64-2.24-1.6l-0.448-1.216c-0.128-0.448-0.576-0.704-1.024-0.704h-7.232c-0.448 0-0.832 0.256-1.024 0.704l-0.448 1.216c-0.128 0.32-0.448 0.512-0.832 0.384-0.32-0.128-0.512-0.448-0.384-0.832l0.448-1.216c0.32-0.96 1.216-1.6 2.24-1.6h7.36c1.024 0 1.856 0.64 2.24 1.6l0.448 1.216c0.128 0.448 0.576 0.704 1.024 0.704h4.8c1.28 0 2.368 1.024 2.368 2.368v13.312c-0.064 0.448-0.256 0.64-0.768 0.64z">
+            </path>
+            <path
+                d="M15.872 25.024c-4.224 0-7.68-3.456-7.68-7.68 0-1.92 0.704-3.712 1.984-5.12 0.256-0.256 0.64-0.256 0.896-0.064 0.256 0.256 0.256 0.64 0.064 0.896-1.088 1.152-1.664 2.688-1.664 4.288 0 3.52 2.88 6.4 6.4 6.4 2.112 0 4.096-1.088 5.312-2.816 0.192-0.32 0.576-0.384 0.896-0.192s0.384 0.576 0.192 0.896c-1.472 2.112-3.84 3.392-6.4 3.392z">
+            </path>
+            <path
+                d="M22.912 17.984c-0.384 0-0.64-0.256-0.64-0.64 0-3.52-2.88-6.4-6.4-6.4-0.448 0-0.896 0.064-1.344 0.128-0.32 0.064-0.704-0.128-0.768-0.512-0.064-0.32 0.128-0.704 0.512-0.768 0.512-0.128 1.024-0.192 1.6-0.192 4.224 0 7.68 3.456 7.68 7.68 0 0.448-0.32 0.704-0.64 0.704z">
+            </path>
+            <path
+                d="M26.944 12.416c0 0.46-0.372 0.832-0.832 0.832s-0.832-0.373-0.832-0.832c0-0.46 0.372-0.832 0.832-0.832s0.832 0.373 0.832 0.832z">
+            </path>
+            <path
+                d="M30.784 28.608c-0.128 0-0.256-0.064-0.384-0.128l-28.736-22.272c-0.256-0.192-0.32-0.64-0.128-0.896s0.64-0.32 0.896-0.128l28.672 22.272c0.256 0.192 0.32 0.64 0.128 0.896-0.064 0.192-0.256 0.256-0.448 0.256z">
+            </path>
+        </symbol>
+
+        <symbol id="icon-gMap" viewBox="0 0 28 28">
+            <path fill="#ecb72b" style="fill: var(--color1, #ecb72b)"
+                d="M16.159 12.544l-2.232 3.294-3.3 3.283c-1.228-1.56-2.568-3.071-3.385-4.898l1.779-2.725 2.728-2.632c-0.403 0.491-0.648 1.125-0.648 1.817 0 1.585 1.285 2.871 2.871 2.871 0.8 0 1.523-0.327 2.044-0.855l0-0c0.050-0.050 0.099-0.102 0.145-0.156z">
+            </path>
+            <path fill="#5085f7" style="fill: var(--color2, #5085f7)"
+                d="M16.21 12.481c0.4-0.489 0.643-1.121 0.643-1.81 0-1.585-1.285-2.871-2.871-2.871-0.792 0-1.509 0.321-2.028 0.839l0-0c-0.047 0.047-0.092 0.096-0.135 0.145l1.882-3.060 2.554-2.218c1.921 0.624 3.469 1.944 4.376 3.655l0.020 0.041-1.863 3.004z">
+            </path>
+            <path fill="#da2f2a" style="fill: var(--color3, #da2f2a)"
+                d="M11.749 8.866l-4.507 5.358c-0.458-0.979-0.737-2.123-0.767-3.329l-0-0.011c0-0.071-0.003-0.143-0.003-0.214 0-0.004 0-0.008 0-0.012 0-1.838 0.663-3.521 1.763-4.823l-0.009 0.011z">
+            </path>
+            <path fill="#4274eb" style="fill: var(--color4, #4274eb)"
+                d="M11.749 8.866l-3.525-3.024c1.389-1.648 3.455-2.689 5.764-2.689 0.809 0 1.589 0.128 2.319 0.364l-0.053-0.015z">
+            </path>
+            <path fill="#60a850" style="fill: var(--color5, #60a850)"
+                d="M21.496 10.669c0-0.004 0-0.008 0-0.013 0-1.263-0.313-2.452-0.866-3.495l0.020 0.041-10.024 11.921c1.139 1.448 2.18 2.939 2.612 4.765 0.014 0.056 0.029 0.127 0.045 0.204 0.157 0.759 1.244 0.759 1.4 0 0.016-0.077 0.031-0.146 0.045-0.204 1.155-4.868 6.63-7.355 6.766-13.004 0-0.072 0.003-0.143 0.003-0.214z">
+            </path>
+        </symbol>
+    </svg>
+    <div elname="bgDiv" class="backgroundBg"></div>
+    <div class="backgroundSecBg">
+        <div elname="frmTemplate" class="templateWidth">
+            <div class="topContainer"></div>
+            <div class="centerContainer ">
+                <div id="formDiv">
+                    <div id="logo-wallpaper" class="fLogowall" style="display:none"><img id="logo-wallpaper-img" src="">
+                    </div>
+                    <div id="fileuploadtemplate" style="display:none"></div>
+                    <form name="test" id="test"><input type="hidden" name="formName" value="Zohoformtesting"
+                            id="formName"><input type="hidden" name="verifyPerma" value="" id="verifyPerma">
+                        <!-- Form Perma will be sent only for PermaUrls -->
+                        <input type="hidden" name="formPerma" value="4U04tt464U09dXfrgM36rZmrjjF9uAj_OWf_3Nyl4Gg"
+                            id="formPerma"><input type="hidden" name="referrerName" id="referrerName"
+                            value="null"><input type="hidden" name="isPaymentForm" value="false"
+                            id="isPaymentForm"><input type="hidden" name="formType" value="0" id="formType">
+                        <input type="hidden" id="zf_date_format" datelocale="en-GB" name="date_format"
+                            value="dd-MMM-yyyy"><input type="hidden" name="isDocsPublicForm" value="false"
+                            id="isDocsPublicForm">
+                        <input type="hidden" name="formrid" value="" id="formrid">
+                        <input type="hidden" name="resizeform" value="1" id="resizeform">
+                        <div id="zf_utmTrack" style="display: none;"></div>
+                        <div class="templateWrapper" id="formRedirectURL">
+
+                            <ul class="tempHeadBdr formRelative">
+                                <li class="tempHeadContBdr"><span id="logo-formheader" class="formLogo"
+                                        style="display: none"><img id="logo-formheader-img" src=""></span>
+                                    <h2 class="frmTitle"><em>Zoho form testing</em></h2>
+                                    <p class="frmDesc">Testing form</p>
+                                    <div class="clearBoth"></div>
+                                </li>
+                            </ul>
+
+
+                            <!-- 'FieldElement' class is imported in order to get the key for display name of the component of 'Address' field.
+    'FormField' class is used to get field type of Zoho CRM field.-->
+
+                            <div id="formBodyDiv" class="formRelative subContWrap topAlign">
+                                <!-- <button elname="openPopUpSubForm" onclick="openPopUp();event.preventDefault()"> Open subform pop up </button> -->
+
+
+
+
+
+
+
+
+
+
+
+                                <!-- formFieldWrapper class is used to differantiate form fields and subform fields in themes. Direct children (li) are considered as form fields. Dont change the order of class used. -->
+                                <ul elname="formBodyULName" class="ulNoStyle formFieldWrapper" page_no="1"
+                                    needpagedata="true">
+
+
+
+
+
+
+
+
+                                    <!-- i) Private form, ii) Perma, iii) Shared form, iv) Theme preview, v) Current Theme -->
+                                    <!-- "isVisible"="false": This 'Admin Only' field must not be shown to user. -->
+                                    <!-- "isVisible"="true": Case 1: This is not an 'Admin Only' field. Case 2: This 'Admin Only' field must be shown to user. -->
+                                    <!-- Theme Preview, Current Theme - Admin Only fields will be shown. Formula won't be calculated. Field Rules won't be executed. -->
+                                    <!-- formMetaData.key=Field link name -->
+                                    <!-- Zoho CRM field : "FIELD_LIST" key won't be present. -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <li elname="livefield-elem" comptype="1" id="SingleLine-li" needdata="true"
+                                        compname="SingleLine" linkname="SingleLine" isvisible="true" isunique="false"
+                                        class="tempFrmWrapper medium" mandatory="true" page_no="1" page_link_name="Page"
+                                        showlabel="true">
+
+
+                                        <label class="labelName advLabelName">
+
+                                            <span>
+                                                <div><b>First Name</b><br></div>
+                                            </span>
+
+                                            <em class="important">*</em>
+
+
+                                        </label>
+
+
+
+                                        <div class="tempContDiv">
+
+
+                                            <span><input onkeyup="ZFLive.configureInputMask(this);"
+                                                    onfocusout="ZFLive.validateFieldConstraint(this);"
+                                                    autocomplete="off" type="text" maxlength="255" name="SingleLine"
+                                                    value="" placeholder="First Name"></span>
+
+
+                                            <p class="errorMessage" elname="error" id="error-SingleLine"></p>
+
+                                            <p class="instruction instrSpace" elname="hint" id="hint-SingleLine"> Please
+                                                enter the first name! </p>
+                                        </div>
+                                        <div class="clearBoth"></div>
+                                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <li elname="livefield-elem" comptype="1" id="SingleLine2-li" needdata="true"
+                                        compname="SingleLine2" linkname="SingleLine2" isvisible="true" isunique="false"
+                                        class="tempFrmWrapper medium" mandatory="true" page_no="1" page_link_name="Page"
+                                        showlabel="true">
+
+
+                                        <label class="labelName advLabelName">
+
+                                            <span>
+                                                <div><b></b><b>Last Name</b><br></div>
+                                            </span>
+
+                                            <em class="important">*</em>
+
+
+                                        </label>
+
+
+
+                                        <div class="tempContDiv">
+
+
+                                            <span><input onkeyup="ZFLive.configureInputMask(this);"
+                                                    onfocusout="ZFLive.validateFieldConstraint(this);"
+                                                    autocomplete="off" type="text" maxlength="255" name="SingleLine2"
+                                                    value="" placeholder="Last Name"></span>
+
+
+                                            <p class="errorMessage" elname="error" id="error-SingleLine2"></p>
+
+                                            <p class="instruction instrSpace" elname="hint" id="hint-SingleLine2">
+                                                Please enter your Last Name! </p>
+                                        </div>
+                                        <div class="clearBoth"></div>
+                                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <li isunique="false" class="tempFrmWrapper email medium lowercase"
+                                        elname="livefield-elem" comptype="9" id="Email-li" needdata="true"
+                                        compname="Email" linkname="Email" isvisible="true" mandatory="true" page_no="1"
+                                        page_link_name="Page" showlabel="true" domain_option="0" need_reconf="false"
+                                        casetype="1">
+
+
+
+
+                                        <label class="labelName advLabelName">
+
+                                            <span>
+                                                <div><b>Email ID</b><br></div>
+                                            </span>
+
+                                            <em class="important">*</em>
+
+
+                                        </label>
+
+
+
+                                        <div class="tempContDiv">
+
+
+                                            <span elname="livefield-email-elem"><input
+                                                    onfocusout="ZFLive.validateFieldConstraint(this);"
+                                                    autocomplete="off" type="text" maxlength="255" name="Email" value=""
+                                                    placeholder="sample@gmail.com">
+
+                                                <p class="errorMessage" elname="error" id="error-Email"></p>
+                                            </span>
+
+
+
+                                            <p class="instruction instrSpace" elname="hint" id="hint-Email"> Enter your
+                                                Email ID!</p>
+                                        </div>
+                                        <div class="clearBoth"></div>
+                                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <li isunique="false" class="tempFrmWrapper phone medium" elname="livefield-elem"
+                                        comptype="11" id="PhoneNumber-li" needdata="true" compname="PhoneNumber"
+                                        linkname="PhoneNumber" isvisible="true" mandatory="true" page_no="1"
+                                        page_link_name="Page" showlabel="true" need_reconf="false">
+
+
+
+
+                                        <label class="labelName advLabelName">
+
+                                            <span>
+                                                <div><b>Phone</b><br></div>
+                                            </span>
+
+                                            <em class="important">*</em>
+
+
+                                        </label>
+
+
+
+                                        <div class="tempContDiv" elname="phoneFormatElem" phoneformat="INTERNATIONAL">
+
+                                            <div elname="phoneFld" name="phone-elements">
+
+
+
+
+
+
+
+
+
+
+
+                                                <div
+                                                    class="intl-tel-input allow-dropdown separate-dial-code iti-sdc-4 phCodeWrapper">
+                                                    <div class="flag-container">
+                                                        <div class="selected-flag" tabindex="0"
+                                                            title="Bangladesh (বাংলাদেশ): +880">
+                                                            <div class="iti-flag bd"></div>
+                                                            <div class="selected-dial-code">+880</div>
+                                                            <div class="iti-arrow"></div>
+                                                        </div>
+                                                    </div><input name="PhoneNumber"
+                                                        onfocusout="ZFLive.validateFieldConstraint(this);"
+                                                        autocomplete="off" id="PhoneNumber" type="text"
+                                                        elname="countrycode" maxlength="20" value=""
+                                                        iscodeenabled="true" phoneformattype="1" placeholder=""
+                                                        initcountry="bd" countrylist="" style="padding-left: 92px;">
+                                                </div>
+
+                                            </div>
+                                            <p class="errorMessage" elname="error" id="error-PhoneNumber"></p>
+
+
+
+                                            <script type="module">if(true==true && (true)){
+    var allowedCountryList = [];
+    var ipBasedCurrentCountry = null;
+    
+    ipBasedCurrentCountry = "BD";// check null value				
+    ipBasedCurrentCountry = ipBasedCurrentCountry.toLowerCase();
+    
+    var defaultCountry = "";// No I18N
+    var keyId = $("#PhoneNumber");
+    var keyIdConf = ("#"+"PhoneNumber"+"-reconf");// No I18N
+    var listofcountries = [],hasCode = false;
+    var initialCountry = "auto";// No I18N
+    var countryCodeProps = jQuery.extend(true, {}, ZFPhone.countryCodeProps);
+    var isRtlEnabled = false;
+    var txtDir = "1"; // No I18N
+    if(txtDir != null && txtDir != undefined){
+    if(txtDir == 2){
+    isRtlEnabled = true;
+    }
+    }
+    countryCodeProps.isRtl = isRtlEnabled;
+    if(defaultCountry != ""){
+    defaultCountry = countryUniqueCode[""];// No I18N
+    }
+    if(allowedCountryList.length > 0){
+    var phoneVal = "";// No I18N
+    var codeVal = "";// No I18N
+    for(var itr = 0;itr < allowedCountryList.length; itr++){
+    if(codeVal != "" && codelist[allowedCountryList[itr]] == codeVal && !hasCode){
+    phoneVal = codeVal+phoneVal;
+    hasCode = true;
+    }
+    listofcountries[itr] = countryUniqueCode[allowedCountryList[itr]];
+    }
+    countryCodeProps.onlyCountries = listofcountries;
+    if("live" == 'live'){
+    if(jQuery.inArray(defaultCountry, listofcountries) !== -1){
+    initialCountry= defaultCountry;
+    }else if(ipBasedCurrentCountry !== null && ipBasedCurrentCountry != "null" && ipBasedCurrentCountry!="-" && jQuery.inArray(ipBasedCurrentCountry,listofcountries) != -1){// No I18N
+    initialCountry= ipBasedCurrentCountry;
+    }
+    }else{
+    $("#PhoneNumber").val(phoneVal);
+    if("false" =="true"){
+    $(keyIdConf).val(phoneVal);// No I18N
+    }
+    }
+    }else if("live" == 'live'){// No I18N
+    if(defaultCountry != ""){
+    initialCountry= defaultCountry;
+    }else if(ipBasedCurrentCountry !== null && ipBasedCurrentCountry != "null" && ipBasedCurrentCountry!="-"){// No I18N
+    initialCountry= ipBasedCurrentCountry;
+    }
+    }
+    if($(keyId).parents("ul").attr("elname")!="subFormFieldsCloneUl"){
+    countryCodeProps.initialCountry = initialCountry;
+    $(keyId).intlTelInput(countryCodeProps);
+    $(keyIdConf).intlTelInput(countryCodeProps);// No I18N
+    if("live" == 'live'){
+    $(keyId).intlTelInput("setNumber","");// No I18N
+    }
+    }
+    $(keyId).attr({"initCountry":initialCountry,"countryList":listofcountries});// No I18N
+    //$("#PhoneNumber") is used instead of variable keyId, since event get attached only to the last dom element instead of all elements.
+    setCountryCodePropsForFlds(("#"+"PhoneNumber"),isRtlEnabled);// No I18N
+    if("false" =="true"){
+    setCountryCodePropsForFlds(("#"+"PhoneNumber"+"-reconf"),isRtlEnabled);// No I18N
+    }
+    }</script>
+
+
+
+                                        </div>
+                                        <div class="clearBoth"></div>
+                                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <li class="tempFrmWrapper dropdown medium zfSelect2CustomCont"
+                                        elname="livefield-elem" comptype="12" id="Dropdown-li" needdata="true"
+                                        compname="Dropdown" linkname="Dropdown" isvisible="true" mandatory="true"
+                                        page_no="1" page_link_name="Page" showlabel="true">
+
+
+                                        <label class="labelName advLabelName">
+
+                                            <span>
+                                                <div><b>Degree</b><br></div>
+                                            </span>
+
+                                            <em class="important">*</em>
+
+
+                                        </label>
+
+
+
+                                        <div class="tempContDiv">
+
+                                            <div class="form_selectBox">
+
+
+                                                <div class="selectArrow"></div><select name="Dropdown" onchange="ZFLive.prefillFieldLabel(this); ZFLive.hideClosestFieldElemErrorDiv(this); ZFLive.checkUniqueChoiceFld(this);  
+    " tabindex="-1" class="select2-hidden-accessible" aria-hidden="true">
+
+
+
+
+                                                    <option selected="true" value="-Select-">-Select-</option>
+
+
+
+
+
+
+
+                                                    <option value="BE/BTech" formula_val="" textassign_val="">BE/BTech
+                                                    </option>
+                                                    <option value="ME/MTech" formula_val="" textassign_val="">ME/MTech
+                                                    </option>
+
+
+
+
+                                                </select><span
+                                                    class="select2 select2-container select2-container--default"
+                                                    dir="ltr" style="width: 566.5px;"><span class="selection"><span
+                                                            class="select2-selection select2-selection--single select2FormCont"
+                                                            role="combobox" aria-haspopup="true" aria-expanded="false"
+                                                            tabindex="0"
+                                                            aria-labelledby="select2-Dropdown-z1-container"><span
+                                                                class="select2-selection__rendered"
+                                                                id="select2-Dropdown-z1-container" title="-Select-">
+                                                                <div class="select2FormFont drpDwnPlaceholder">-Select-
+                                                                </div>
+                                                            </span><span
+                                                                class="select2-selection__arrow select2FormArrow"
+                                                                role="presentation"><b
+                                                                    role="presentation"></b></span></span></span><span
+                                                        class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                            </div>
+
+                                            <div elname="liveFieldTempChoiceCont" style="display: none;"></div>
+                                            <p class="errorMessage" elname="error" id="error-Dropdown"></p>
+                                        </div>
+                                        <div class="clearBoth"></div>
+                                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <li isunique="false" class="tempFrmWrapper medium" elname="livefield-elem"
+                                        comptype="3" id="Number-li" needdata="true" compname="Number" linkname="Number"
+                                        isvisible="true" mandatory="true" unit_position="2" page_no="1"
+                                        page_link_name="Page" summary_type="0" showlabel="true">
+
+
+                                        <label class="advLabelName labelName">
+
+                                            <span>
+                                                <div><b>Year of Passout</b><br></div>
+                                            </span>
+
+                                            <em class="important">*</em>
+
+
+                                        </label>
+
+
+
+                                        <div elname="tempContDiv" class="tempContDiv">
+
+
+
+                                            <span><input onfocusout="ZFLive.validateFieldConstraint(this);"
+                                                    autocomplete="off" type="text" maxlength="18" name="Number" value=""
+                                                    placeholder=""> </span>
+
+
+                                            <span class="symbol" name="field_unit_after"
+                                                elname="field_unit_span"></span>
+
+                                            <p class="errorMessage" elname="error" id="error-Number"></p>
+                                        </div>
+                                        <div class="clearBoth"></div>
+                                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <li class="tempFrmWrapper dropdown medium zfSelect2CustomCont" style="display:none;"
+                                        elname="livefield-elem" comptype="12" id="Dropdown1-li" needdata="true"
+                                        compname="Dropdown1" linkname="Dropdown1" isvisible="false" mandatory="true"
+                                        page_no="1" page_link_name="Page" showlabel="true">
+
+
+                                        <label class="labelName advLabelName">
+
+                                            <span>
+                                                <div><b>Course Name</b><br></div>
+                                            </span>
+
+                                            <em class="important">*</em>
+
+
+                                        </label>
+
+
+
+                                        <div class="tempContDiv">
+
+                                            <div class="form_selectBox">
+
+
+                                                <div class="selectArrow"></div><select name="Dropdown1" onchange="ZFLive.prefillFieldLabel(this); ZFLive.hideClosestFieldElemErrorDiv(this); ZFLive.checkUniqueChoiceFld(this);  
+    " tabindex="-1" class="select2-hidden-accessible" aria-hidden="true">
+
+
+
+
+                                                    <option selected="true" value="-Select-">-Select-</option>
+
+
+
+
+
+
+
+                                                    <option value="Online ECEP Course" formula_val="" textassign_val=""
+                                                        selected="">Online ECEP Course</option>
+
+
+
+
+                                                </select><span
+                                                    class="select2 select2-container select2-container--default"
+                                                    dir="ltr" style="width: auto;"><span class="selection"><span
+                                                            class="select2-selection select2-selection--single select2FormCont"
+                                                            role="combobox" aria-haspopup="true" aria-expanded="false"
+                                                            tabindex="0"
+                                                            aria-labelledby="select2-Dropdown1-fq-container"><span
+                                                                class="select2-selection__rendered"
+                                                                id="select2-Dropdown1-fq-container"
+                                                                title="Online ECEP Course">
+                                                                <div class="select2FormFont">Online ECEP Course</div>
+                                                            </span><span
+                                                                class="select2-selection__arrow select2FormArrow"
+                                                                role="presentation"><b
+                                                                    role="presentation"></b></span></span></span><span
+                                                        class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                            </div>
+
+                                            <div elname="liveFieldTempChoiceCont" style="display: none;"></div>
+                                            <p class="errorMessage" elname="error" id="error-Dropdown1"></p>
+                                        </div>
+                                        <div class="clearBoth"></div>
+                                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <li class="tempFrmWrapper dropdown medium zfSelect2CustomCont" style="display:none;"
+                                        elname="livefield-elem" comptype="12" id="Dropdown5-li" needdata="true"
+                                        compname="Dropdown5" linkname="Dropdown5" isvisible="false" mandatory="true"
+                                        page_no="1" page_link_name="Page" showlabel="true">
+
+
+                                        <label class="labelName advLabelName">
+
+                                            <span>
+                                                <div><b>Course Category</b><br></div>
+                                            </span>
+
+                                            <em class="important">*</em>
+
+
+                                        </label>
+
+
+
+                                        <div class="tempContDiv">
+
+                                            <div class="form_selectBox">
+
+
+                                                <div class="selectArrow"></div><select name="Dropdown5" onchange="ZFLive.prefillFieldLabel(this); ZFLive.hideClosestFieldElemErrorDiv(this); ZFLive.checkUniqueChoiceFld(this);  
+    " tabindex="-1" class="select2-hidden-accessible" aria-hidden="true">
+
+
+
+
+                                                    <option selected="true" value="-Select-">-Select-</option>
+
+
+
+
+
+
+
+                                                    <option value="Placement Course" formula_val="" textassign_val=""
+                                                        selected="">Placement Course</option>
+
+
+
+
+                                                </select><span
+                                                    class="select2 select2-container select2-container--default"
+                                                    dir="ltr" style="width: auto;"><span class="selection"><span
+                                                            class="select2-selection select2-selection--single select2FormCont"
+                                                            role="combobox" aria-haspopup="true" aria-expanded="false"
+                                                            tabindex="0"
+                                                            aria-labelledby="select2-Dropdown5-n6-container"><span
+                                                                class="select2-selection__rendered"
+                                                                id="select2-Dropdown5-n6-container"
+                                                                title="Placement Course">
+                                                                <div class="select2FormFont">Placement Course</div>
+                                                            </span><span
+                                                                class="select2-selection__arrow select2FormArrow"
+                                                                role="presentation"><b
+                                                                    role="presentation"></b></span></span></span><span
+                                                        class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                            </div>
+
+                                            <div elname="liveFieldTempChoiceCont" style="display: none;"></div>
+                                            <p class="errorMessage" elname="error" id="error-Dropdown5"></p>
+                                        </div>
+                                        <div class="clearBoth"></div>
+                                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <li class="tempFrmWrapper dropdown medium zfSelect2CustomCont" style="display:none;"
+                                        elname="livefield-elem" comptype="12" id="Dropdown4-li" needdata="true"
+                                        compname="Dropdown4" linkname="Dropdown4" isvisible="false" mandatory="true"
+                                        page_no="1" page_link_name="Page" showlabel="true">
+
+
+                                        <label class="labelName advLabelName">
+
+                                            <span>
+                                                <div><b>Lead Bucket</b><br></div>
+                                            </span>
+
+                                            <em class="important">*</em>
+
+
+                                        </label>
+
+
+
+                                        <div class="tempContDiv">
+
+                                            <div class="form_selectBox">
+
+
+                                                <div class="selectArrow"></div><select name="Dropdown4" onchange="ZFLive.prefillFieldLabel(this); ZFLive.hideClosestFieldElemErrorDiv(this); ZFLive.checkUniqueChoiceFld(this);  
+    " tabindex="-1" class="select2-hidden-accessible" aria-hidden="true">
+
+
+
+
+                                                    <option selected="true" value="-Select-">-Select-</option>
+
+
+
+
+
+
+
+                                                    <option value="Inbound Lead - B1" formula_val="" textassign_val=""
+                                                        selected="">Inbound Lead - B1</option>
+                                                    <option value="Outbound Lead - B2" formula_val="" textassign_val="">
+                                                        Outbound Lead - B2</option>
+
+
+
+
+                                                </select><span
+                                                    class="select2 select2-container select2-container--default"
+                                                    dir="ltr" style="width: auto;"><span class="selection"><span
+                                                            class="select2-selection select2-selection--single select2FormCont"
+                                                            role="combobox" aria-haspopup="true" aria-expanded="false"
+                                                            tabindex="0"
+                                                            aria-labelledby="select2-Dropdown4-lm-container"><span
+                                                                class="select2-selection__rendered"
+                                                                id="select2-Dropdown4-lm-container"
+                                                                title="Inbound Lead - B1">
+                                                                <div class="select2FormFont">Inbound Lead - B1</div>
+                                                            </span><span
+                                                                class="select2-selection__arrow select2FormArrow"
+                                                                role="presentation"><b
+                                                                    role="presentation"></b></span></span></span><span
+                                                        class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                            </div>
+
+                                            <div elname="liveFieldTempChoiceCont" style="display: none;"></div>
+                                            <p class="errorMessage" elname="error" id="error-Dropdown4"></p>
+                                        </div>
+                                        <div class="clearBoth"></div>
+                                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <li class="tempFrmWrapper dropdown medium zfSelect2CustomCont" style="display:none;"
+                                        elname="livefield-elem" comptype="12" id="Dropdown3-li" needdata="true"
+                                        compname="Dropdown3" linkname="Dropdown3" isvisible="false" mandatory="false"
+                                        page_no="1" page_link_name="Page" showlabel="true">
+
+
+                                        <label class="labelName advLabelName">
+
+                                            <span>
+                                                <div><b>Description</b><br></div>
+                                            </span>
+
+
+                                        </label>
+
+
+
+                                        <div class="tempContDiv">
+
+                                            <div class="form_selectBox">
+
+
+                                                <div class="selectArrow"></div><select name="Dropdown3" onchange="ZFLive.prefillFieldLabel(this); ZFLive.hideClosestFieldElemErrorDiv(this); ZFLive.checkUniqueChoiceFld(this);  
+    " tabindex="-1" class="select2-hidden-accessible" aria-hidden="true">
+
+
+
+
+                                                    <option selected="true" value="-Select-">-Select-</option>
+
+
+
+
+
+
+
+                                                    <option value="Description" formula_val="" textassign_val=""
+                                                        selected="">Description</option>
+
+
+
+
+                                                </select><span
+                                                    class="select2 select2-container select2-container--default"
+                                                    dir="ltr" style="width: auto;"><span class="selection"><span
+                                                            class="select2-selection select2-selection--single select2FormCont"
+                                                            role="combobox" aria-haspopup="true" aria-expanded="false"
+                                                            tabindex="0"
+                                                            aria-labelledby="select2-Dropdown3-gy-container"><span
+                                                                class="select2-selection__rendered"
+                                                                id="select2-Dropdown3-gy-container" title="Description">
+                                                                <div class="select2FormFont">Description</div>
+                                                            </span><span
+                                                                class="select2-selection__arrow select2FormArrow"
+                                                                role="presentation"><b
+                                                                    role="presentation"></b></span></span></span><span
+                                                        class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                            </div>
+
+                                            <div elname="liveFieldTempChoiceCont" style="display: none;"></div>
+                                            <p class="errorMessage" elname="error" id="error-Dropdown3"></p>
+                                        </div>
+                                        <div class="clearBoth"></div>
+                                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <li class="tempFrmWrapper dropdown medium zfSelect2CustomCont" style="display:none;"
+                                        elname="livefield-elem" comptype="12" id="Dropdown2-li" needdata="true"
+                                        compname="Dropdown2" linkname="Dropdown2" isvisible="false" mandatory="true"
+                                        page_no="1" page_link_name="Page" showlabel="true">
+
+
+                                        <label class="labelName advLabelName">
+
+                                            <span>
+                                                <div><b>B1- Lead Source</b><br></div>
+                                            </span>
+
+                                            <em class="important">*</em>
+
+
+                                        </label>
+
+
+
+                                        <div class="tempContDiv">
+
+                                            <div class="form_selectBox">
+
+
+                                                <div class="selectArrow"></div><select name="Dropdown2" onchange="ZFLive.prefillFieldLabel(this); ZFLive.hideClosestFieldElemErrorDiv(this); ZFLive.checkUniqueChoiceFld(this);  
+    " tabindex="-1" class="select2-hidden-accessible" aria-hidden="true">
+
+
+
+
+                                                    <option selected="true" value="-Select-">-Select-</option>
+
+
+
+
+
+
+
+                                                    <option value="Embedded - Organic" formula_val="" textassign_val=""
+                                                        selected="">Embedded - Organic</option>
+                                                    <option value="Embedded - GoogleAds" formula_val=""
+                                                        textassign_val="">Embedded - GoogleAds</option>
+
+
+
+
+                                                </select><span
+                                                    class="select2 select2-container select2-container--default"
+                                                    dir="ltr" style="width: auto;"><span class="selection"><span
+                                                            class="select2-selection select2-selection--single select2FormCont"
+                                                            role="combobox" aria-haspopup="true" aria-expanded="false"
+                                                            tabindex="0"
+                                                            aria-labelledby="select2-Dropdown2-wd-container"><span
+                                                                class="select2-selection__rendered"
+                                                                id="select2-Dropdown2-wd-container"
+                                                                title="Embedded - Organic">
+                                                                <div class="select2FormFont">Embedded - Organic</div>
+                                                            </span><span
+                                                                class="select2-selection__arrow select2FormArrow"
+                                                                role="presentation"><b
+                                                                    role="presentation"></b></span></span></span><span
+                                                        class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                            </div>
+
+                                            <div elname="liveFieldTempChoiceCont" style="display: none;"></div>
+                                            <p class="errorMessage" elname="error" id="error-Dropdown2"></p>
+                                        </div>
+                                        <div class="clearBoth"></div>
+                                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <li class="zfcheckbox tempFrmWrapper oneColumns " elname="livefield-elem"
+                                        comptype="14" needdata="true" id="Checkbox-li" compname="Checkbox"
+                                        linkname="Checkbox" isvisible="true" mandatory="false" page_no="1"
+                                        page_link_name="Page" choice_type="checkbox">
+
+
+
+                                        <label class="labelName"><span>User Consent</span>
+
+                                        </label>
+
+
+                                        <div class="tempContDiv">
+
+                                            <div class="overflow customCheckBox">
+
+                                                <span class="multiAttType cusChoiceSpan"> <input
+                                                        onmousedown="event.preventDefault();" type="checkbox"
+                                                        id="Checkbox_1" class="checkBoxType" name="Checkbox"
+                                                        elname="Checkbox" value="Allow Whatsapp and phone call"
+                                                        textassign_val="" formula_val="" onchange="ZFLive.hideClosestFieldElemErrorDiv(this); 
+    " checked="">
+                                                    <label for="Checkbox_1" class="checkChoice cusChoiceLabel">
+                                                        <div class="checker"></div><em class="cusChoiceEm">Allow
+                                                            Whatsapp and phone call</em>
+                                                    </label> </span>
+                                                <span class="multiAttType cusChoiceSpan"> <input
+                                                        onmousedown="event.preventDefault();" type="checkbox"
+                                                        id="Checkbox_2" class="checkBoxType" name="Checkbox"
+                                                        elname="Checkbox" value="Allow Emails to be sent"
+                                                        textassign_val="" formula_val="" onchange="ZFLive.hideClosestFieldElemErrorDiv(this); 
+    " checked="">
+                                                    <label for="Checkbox_2" class="checkChoice cusChoiceLabel">
+                                                        <div class="checker"></div><em class="cusChoiceEm">Allow Emails
+                                                            to be sent</em>
+                                                    </label> </span>
+
+
+                                                <div class="clearBoth"></div>
+                                            </div>
+                                            <p class="errorMessage" elname="error" id="error-Checkbox"></p>
+                                        </div>
+                                        <div class="clearBoth"></div>
+                                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                </ul>
+                            </div>
+
+
+
+
+                            <ul elname="footer" class="footerWrapper formRelative" page_no="1" page_count="1"
+                                page_link_name="Page">
+                                <li style="overflow:visible; position: relative;" class="btnAllign fmFooter"
+                                    id="formAccess" elname="0">
+
+                                    <div class="pageFotDef">
+
+
+
+
+                                        <div class="alignSubmit">
+                                            <div class="formRelative inlineBlock submitBtnCont"><button
+                                                    class="fmSmtButton submitColor submitWrapper fmSmtButtom"
+                                                    elname="submit" value="submit">
+                                                    <em>Register Now</em>
+                                                </button></div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="clearBoth"></div>
+                                </li>
+                            </ul>
+                            <!-- Uncomment the following Code to enable automation location based value filling for GeoLocation Fields -->
+                            <!-- Set the mapquestURL from zohoforms.properties -->
+                            <!--   -->
+
+                            <!--Div to show error for unconfirmed users -->
+                            <div id="errorDiv" style="display:none" class="errorMsgWrapper">
+                                <div class="flLeft errorIcon"></div>
+                                <div class="errorMsgCont">
+                                    <h2>Error Occurred!</h2>
+                                    <span id="errorMsgSpan">You haven't verified your email yet, click<a
+                                            href="javascript:;" onclick="ZFUtil.resendMail('0');"> here </a> to receive
+                                        a verification email.</span>
+                                </div>
+                                <div class="clearBoth"></div>
+                            </div>
+                        </div><!-- 'formRedirectURL' ends -->
+                        <div id="popupdiv" class="dim-div2" style="display:none;">
+                            <div id="imageChoiceDiv-cont" class="popUpOuter imageTypeZoom">
+                                <div class="popUpInnerWrapper">
+                                    <div class="popupHeader removeBdr"><a class="flRight ppDeleteIcon"
+                                            onclick="ZFLive.hideZoomedImage();" href="javascript:;"></a>
+                                        <div class="clearBoth"></div>
+                                    </div>
+                                    <div class="popupMainCont"><img src=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div><!-- 'formDiv' ends -->
+            </div><!-- 'centerContainer' ends -->
+            <div class="btmContainer"></div>
+        </div><!-- 'templateWidth' ends -->
+        <div class="clearBoth"></div>
+    </div><!-- 'backgroundSecBg' ends -->
+
+    <div id="paymentDummyDiv" style="display:none;"></div>
+    <!--<div id="successDiv" class="zf-loading blackLoad" style="position: absolute; top: 112px; left: 568.5px;display:none;" elname="edit-form-msg"><span>IAMEncoder.encodeHTML(successMessage)</span><img src="https://static.zohocdn.com/forms/images/loader.79de1b954774690fff0e7345d82faa25.gif"></div><div id="waitDiv" class="zf-loading blackLoad" style="position: absolute; top: 112px; left: 568.5px;display:none;" elname="edit-form-msg"><span>IAMEncoder.encodeHTML(successMessage)</span><img src="https://static.zohocdn.com/forms/images/loader.79de1b954774690fff0e7345d82faa25.gif"></div>-->
+    <!-- DIV TO SHOW ERROR MESSAGE WHEN THE FORM SUBMISSION LEVEL REACHED -->
+    <div class="dim-div" style="display:none;" id="settingsErr-div">
+        <div class="popUpOuter" style="width: 370px; position: absolute; top: 131px; left: 489.5px;"
+            id="settingsErr-div-cont">
+            <div class="popUpInner">
+                <div class="popupHeader removeBdr"><a href="javascript:;" onclick="closeErrorPopup();"
+                        class="flRight ppDeleteIcon"></a>
+                    <div class="clearBoth"></div>
+                </div>
+                <div class="popupMainCont">
+                    <div class="popUpFields"><label id="popHeader"></label>
+                        <div id="msgBody"></div>
+                    </div>
+                </div>
+                <div class="popupTemFot" style="text-align: center"><a href="javascript:;" onclick="closeErrorPopup();"
+                        class="btnCurve lightGray">OK</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="dim-div" style="display:none;" id="cacelSubmitErr-div">
+        <div class="popUpOuter cancelSubmitPopup" style="width: 370px; position: absolute; top: 131px; left: 489.5px;"
+            id="cacelSubmitErr-div-cont">
+            <div class="popUpInner">
+                <div class="popupHeader removeBdr"><a href="javascript:;" onclick="closeCancelSubmitErrorPopup();"
+                        class="flRight ppDeleteIcon"></a>
+                    <div class="clearBoth"></div>
+                </div>
+                <div class="popupMainCont">
+                    <div class="popUpFields">
+                        <div id="cancelSubmitMsgBody"></div>
+                    </div>
+                </div>
+                <div class="popupTemFot" style="text-align: center"><a href="javascript:;"
+                        onclick="closeCancelSubmitErrorPopup();" class="btnCurve lightGray blue">OK</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="dim-div" style="display:none;" id="restrictionPopup">
+        <div class="popUpOuter" style="width: 370px; position: absolute; top: 131px; left: 489.5px;"
+            id="restrictionPopup-cont">
+            <div class="popUpInner">
+                <div class="popupHeader removeBdr"><a href="javascript:;" onclick="hideRestrictionPopup();"
+                        class="flRight ppDeleteIcon"></a>
+                    <div class="clearBoth"></div>
+                </div>
+                <div class="popupMainCont">
+                    <div class="popUpFields"><label id="popHeader"></label>
+                        <div elname="message"></div>
+                    </div>
+                </div>
+                <div class="popupTemFot" style="text-align: center"><a href="javascript:;"
+                        onclick="hideRestrictionPopup();" class="btnCurve lightGray">OK</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="dim-div1 screenFreeze" id="screenFreezeDiv" style="display:none;"></div>
+    <div class="dim-div" style="display:none;" id="paymentsErr-div">
+        <div class="popUpOuter" style="width: 450px; position: absolute; top: 131px; left: 489.5px;"
+            id="paymentsErr-div-cont">
+            <div class="popUpInner paymentFailed_Wrap">
+                <div class="popupHeader removeBdr">
+                    <div class="clearBoth"></div>
+                </div>
+                <div class="popupMainCont">
+                    <div class="popUpFields">
+                        <div class="failedHead"><span class="warnInfoIcon flLeft"><img
+                                    src="https://static.zohocdn.com/forms/images/warning-info.607d397302b1f344f8d8df1258004046.png"
+                                    style="height: 27px;width: 27px;"></span><label class="flLeft" id="popHeader">
+                            </label>
+                            <div class="clearBoth"></div>
+                        </div>
+                        <div id="msgBody"></div>
+                    </div>
+                </div>
+                <div class="popupTemFot btnAlign_rht"><a href="javascript:;" elname="paymentRetryBtn"
+                        onclick="retryPaymentErrPopup();" class="btnCurve blue">Retry</a>
+                    <a href="javascript:;" onclick="ZFLive.cancelPaymentError();" class="btnCurve lightGray">Cancel</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display:none;" class="dim-div" id="errmsg-div">
+        <div class="popUpOuter" id="errmsgdivCont" style="width:500px;">
+            <div class="popUpInner">
+                <div class="popupHeader removeBdr"><a class="flRight ppDeleteIcon" onclick="closeErrMsgPopUp()"></a>
+                    <div class="clearBoth"></div>
+                </div>
+                <div class="popupMainCont messageCont">
+                    <p elname="errorMsg">That CAPTCHA was incorrect. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display:none;" class="dim-div" id="infomsg-popup-div">
+        <div class="popUpOuter sfLimtEntryWrap" id="infomsg-popup-cont">
+            <div class="popUpInner">
+                <div class="popupHeader removeBdr"><a class="flRight ppDeleteIcon" onclick="closeInfoPopUp()"></a>
+                    <div class="clearBoth"></div>
+                </div>
+                <div class="popupMainCont messageCont">
+                    <p elname="infoMsg"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display:none;" class="dim-div" id="form-deactive-div">
+        <div class="deactivatedMsg" id="formdeactivedivCont">
+            <div class="popUpInner">
+                <div class="errMsg"><span>Your form has been deactivated.</span> <span>Contact support@zohoforms.com for
+                        further information.</span></div>
+            </div>
+        </div>
+    </div>
+    <div id="pleaseWait_Div" style="display: none;" class="dim-div1">
+        <div id="pleaseWait_DivCont" class="popUpOuter loaderWrapper">
+            <div class="popUpInner">
+                <div class="loaderCont"><img
+                        src="https://static.zohocdn.com/forms/images/loader.79de1b954774690fff0e7345d82faa25.gif"
+                        style="height: 24px;width: 24px;">
+                    <span>Submitting...</span></div>
+            </div>
+        </div>
+    </div>
+    <div id="reviewLoad_Div" style="display: none;" class="dim-div1">
+        <div id="reviewLoad_DivCont" class="popUpOuter loaderWrapper">
+            <div class="popUpInner">
+                <div class="loaderCont"><img
+                        src="https://static.zohocdn.com/forms/images/loader.79de1b954774690fff0e7345d82faa25.gif"
+                        style="height: 24px;width: 24px;">
+                    <span>Please Wait...</span></div>
+            </div>
+        </div>
+    </div>
+    <div id="savingDiv" style="display: none;" class="dim-div1">
+        <div id="savingDivCont" class="popUpOuter loaderWrapper">
+            <div class="popUpInner">
+                <div class="loaderCont"><img
+                        src="https://static.zohocdn.com/forms/images/loader.79de1b954774690fff0e7345d82faa25.gif"
+                        style="height: 24px;width: 24px;">
+                    <span>Saving...</span></div>
+            </div>
+        </div>
+    </div>
+    <div id="validateLoading" style="display: none;" class="dim-div1">
+        <div id="validateLoadingCont" class="popUpOuter loaderWrapper validateLoading">
+            <div class="popUpInner">
+                <div class="loaderCont"><img
+                        src="https://static.zohocdn.com/forms/images/loader.79de1b954774690fff0e7345d82faa25.gif"
+                        style="height: 24px;width: 24px;"></div>
+            </div>
+        </div>
+    </div>
+    <div id="plainLoading" style="display: none;" class="dim-div1">
+        <div id="plainLoadingCont" class="popUpOuter loaderWrapper">
+            <div class="popUpInner">
+                <div class="loaderCont"><img
+                        src="https://static.zohocdn.com/forms/images/loader.79de1b954774690fff0e7345d82faa25.gif"
+                        style="height: 24px;width: 24px;"></div>
+            </div>
+        </div>
+    </div>
+    <div id="paymentRedirectDiv" style="display: none;" class="dim-div1">
+        <div id="paymentRedirectDivCont" class="popUpOuter loaderWrapper">
+            <div class="popUpInner">
+                <div class="loaderCont"><img
+                        src="https://static.zohocdn.com/forms/images/loader.79de1b954774690fff0e7345d82faa25.gif"
+                        style="height: 24px;width: 24px;">
+                    <span>Redirecting to Merchant Website..</span></div>
+            </div>
+        </div>
+    </div>
+    <div id="paymentProcessingDiv" style="display: none;" class="dim-div1">
+        <div id="paymentProcessingDivCont" class="popUpOuter loaderWrapper">
+            <div class="popUpInner">
+                <div class="loaderCont"><img
+                        src="https://static.zohocdn.com/forms/images/loader.79de1b954774690fff0e7345d82faa25.gif"
+                        style="height: 24px;width: 24px;">
+                    <span>Verifying Credit Card Details...</span></div>
+            </div>
+        </div>
+    </div>
+    <div id="merchantActionDiv" style="display: none;" class="dim-div1">
+        <div id="merchantActionDivCont" class="popUpOuter loaderWrapper">
+            <div class="popUpInner">
+                <div class="loaderCont"><img
+                        src="https://static.zohocdn.com/forms/images/loader.79de1b954774690fff0e7345d82faa25.gif"
+                        style="height: 24px;width: 24px;">
+                    <span>Please wait...</span></div>
+            </div>
+        </div>
+    </div>
+    <div id="paypalCkoutActionDiv" style="display: none;" class="dim-div pScroll">
+        <div id="paypalCkoutActionDivCont" class="popUpOuterSave saveandReswrap pymntPopUp">
+            <div class="popUpInner">
+                <div class="popupMainCont">
+                    <div id="paypalck-button-container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display:none;" id="captcha-popup-div">
+        <div class="dim-div darkDim"></div>
+        <div class="popUpOuter captchaPopup " style="display:none;" id="captcha-popup-cont">
+            <div class="popUpInner">
+                <div>
+                    <div class="sfPopCloseIcn" onclick="closeCaptchaPopUp()"><span class="flRight ppDeleteIcon"></span>
+                    </div>
+                    <div class="clearBoth"></div>
+                </div>
+                <div class="popupMainCont" elname="captcha-load-div">
+                    <div elname="zf_captcha_div" style="display:none;">
+                        <li class=" verification" mandatory="true" id="pop_captcha_li" compname="verificationcode"
+                            comptype="0"><label class="labelName" elname="pop_captcha_title">
+                                Verification Code
+
+                            </label>
+                            <div>
+                                <div class="captchaOuterWrapper">
+                                    <div class="captchaActOutCont"><label elname="pop_captcha_desc">
+
+                                            Enter the text in the box below
+
+                                        </label>
+                                        <div class="flLeft captchaActInnerCont"><input type="text" class=""
+                                                id="pop_captcha_input_id" digest="" autocomplete="off"
+                                                elname="pop_captcha_input" maxlength="10">
+                                            <!-- Digest value is a hex string. -->
+                                        </div>
+                                        <div class="captchaRefresh flLeft captchaRefreshIcon" id="pop_captcha_reset_div"
+                                            onclick="resetCaptchaForPopup()"></div>
+                                        <div class="clearBoth"></div>
+                                    </div>
+                                    <div class="captchaImgCont" elname="pop_captcha_imgdiv"><img width="160"
+                                            align="absmiddle"
+                                            title="Random word embedded in this image for Human Interactive Proof"
+                                            alt="Please wait" id="zf-captcha-pop"><!-- Digest value is a hex string. -->
+                                    </div>
+                                    <div class="clearBoth"></div>
+                                </div>
+                                <p class="errorMessage" style="display:block;" elname="error"
+                                    id="error-verificationcode-pop"></p>
+                            </div>
+                            <div class="clearBoth"></div>
+                        </li>
+                    </div>
+                    <div elname="g_recaptcha_div" isloaded="false" style="display:none;">
+                        <li class="verification" mandatory="true" id="pop_recaptchacbox-li" compname="recaptchacbox"
+                            comptype="0">
+                            <div class="tempContDiv">
+                                <div id="recaptcha_checkbox_pop" data-callback="resetPopupCaptchaError"></div>
+                                <p class="errorMessage" elname="error" style="display:block;"
+                                    id="error-recaptchacbox-pop"></p>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+                <div class="footer flRight"><button class="btnCurve blue" id="popupCaptchaSave"
+                        onclick="proceedToSaveFromPopup();">
+                        <em elem="loadingImgElem" style="display:none" class="savecmonLoader"></em>
+                        <span>Continue</span> </button></div>
+                <div class="clearBoth"></div>
+            </div>
+        </div>
+    </div>
+    <!--Email verification info div -->
+    <div id="infoMsgDiv" class="loadingCont loadSuccess" style="display:none;"><em class="smallTickIcon"></em>
+        <span id="info-msg">Verification mail sent.</span></div>
+    <div id="savePopUpDiv" style="display:none;">
+        <div class="dim-div darkDim"></div>
+        <div class="popUpOuterSave saveandReswrap" id="savePopUpDivCont">
+            <div class="popUpInner">
+                <div class="popupHeader"><a href="javascript:;"
+                        onclick="ZFLive.closePopUp('savePopUpDiv'); event.stopPropagation();"
+                        class="flRight ppDeleteIcon"></a></div>
+                <div class="popupMainCont">
+                    <h2> Link to resume this form later:</h2>
+                    <div elname="emailtoDiv">
+                        <p class="headTxtsave">Email Link to</p>
+                        <div class="saveEmailDiv1" elname="emailSavedLink" style="display:none;"><input type="text"
+                                elname="emailID" class="emailLinksave flLeft"><button
+                                class="fmSmtButton emailsaveBtn flRight" elname="sendEmailBtn">
+                                <em elname="loadingImgElem" style="display:none;" class="btnLoad flLeft"></em>
+                                <em>Send</em>
+                            </button>
+                            <div class="clearBoth"></div>
+                            <p class="errorMessage rangeError" elname="errorMsg" style="display: none;">Please enter a
+                                valid email address to configure Zoho Sign settings.</p>
+                        </div>
+                        <div class="saveSuccesDiv" elname="succesDiv" style="display:none;"><img
+                                src="https://static.zohocdn.com/forms/images/check-mark-outline.e44509047a0a79fb604be98bb10ec5bc.png"
+                                style="height: 30px;width: 30px;">
+                            <span><em elname="successDivMsg"></em>&nbsp;<em elname="emailMsg"
+                                    class="textBold"></em></span></div>
+                    </div>
+                    <div class="posReldiv"><span class="headTxtsave flLeft">Copy Link</span> <span elname="copyClip"
+                            style="display:none;" class="saveCpyBoard">Copied to clipboard.</span> <textarea
+                            onclick="selectTxtAreaContAndCopy(this);" readonly=""> </textarea></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="splash_message_div" style="display: none;" class="dim-div1 splashMsgWrapper">
+        <div id="splash_message_div_cont" class="splashMsgOuterCont"><span id="splash_msg_text" class="splashMsgCont">
+            </span></div>
+    </div>
+    <div class="ruleDropDown" elname="crm-entry-listing-div">
+        <!-- This div is hidden in CSS. Dropdown needs to be dynamically placed hence moved here from zohocrm.jsp-->
+        <ul elname="entry-ul-clone" style="display:none;">
+            <li entry_id="" elname="entry-li-clone" onclick="ZFCrmLive.zfCrmLive.selectCrmEntry(this)"
+                onmouseover="ZFUtil.removeOtherLiHovers(this)"></li>
+        </ul>
+        <ul elname="entry-ul"></ul>
+        <p class="ruleNoActionFields" elname="err-entry"></p>
+    </div>
+    <div id="subFormPopUp" class="dim-div-sf pScroll" style="display:none">
+        <div id="subFormPopUpCont" class="popUpOuter">
+            <div>
+                <div id="sFPopUpCloseLink" class="sfPopCloseIcn"><span class="flRight ppDeleteIcon"></span></div>
+                <div class="templateWrapper ani2">
+                    <ul elname="sfPopUpHeader" class="tempHeadBdr formRelative">
+                        <li class="tempHeadContBdr">
+                            <h2 class="frmTitle"><em></em></h2>
+                            <p class="frmDesc"></p>
+                            <div class="clearBoth"></div>
+                        </li>
+                    </ul>
+                    <div id="sFPopUpElem" class="formRelative popupMainCont subContWrap topAlign"></div>
+                    <ul elname="footer" class="footerWrapper formRelative">
+                        <li style="overflow:visible; position: relative;" class="btnAllign fmFooter">
+                            <div class="pageFotDef">
+                                <div class="alignSubmit">
+                                    <div class="formRelative inlineBlock submitBtnCont"><button
+                                            class="fmSmtButton submitColor submitWrapper fmSmtButtom" elname="submit"
+                                            value="submit" onclick="addThisSFEntryFromPopUp();">
+                                            <em>Done</em>
+                                        </button></div>
+                                </div>
+                            </div>
+                            <div class="clearBoth"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dim-div pScroll" style="display: none" ;="">
+        <div id="videocontainer" class="popUpOuterSave pageReviewPopUp cameraWrapper">
+            <div class="popUpInner"><a href="javascript:;" elname="closeVideo" onclick="closeVideoTaker();"
+                    class="flRight closePopup">
+                    <svg class="icon delete_icon">
+                        <use xlink:href="#icon-close"></use>
+                    </svg>
+                </a>
+                <div class="popupHeader" elname="cameraPopupHeader">
+                    <div class="flLeft camDropIcon"><svg class="icon icon-webcam">
+                            <use xlink:href="#icon-webcam"></use>
+                        </svg></div>
+                    <div elname="selectCamera" class="cameraDropdown form_sBox">
+                        <div class="customArrow"></div><select elname="chooseCamera" onchange="turnOnVideo(this.value)"
+                            class="custom-select"></select>
+                    </div>
+                    <div class="clearBoth"></div>
+                </div>
+                <div class="popupMainCont">
+                    <div><canvas style="display: none;" id="canvas_Video" width="1320" height="990"></canvas>
+                        <img elname="videoImgpreview" style=" display: none;width: 100%; height: 100%;" src="">
+                        <video autoplay="true" elname="videoElement" id="videoElement" style="display:none;width: 100%">
+                        </video></div>
+                    <div class="cameraFooter"><a class="clickCamera" href="javascript:;" elname="take_photo"
+                            onclick="clickToTakePhoto();">
+                            <svg class="icon icon-camera">
+                                <use xlink:href="#icon-camera"></use>
+                            </svg>
+                        </a>
+                        <a class="clickCamera" href="javascript:;" elname="okdone">
+                            <svg class="icon icon-tick">
+                                <use xlink:href="#icon-tick"></use>
+                            </svg>
+                        </a>
+                        <a class="reTakeCamera" href="javascript:;" elname="retake_photo"
+                            onclick="clickToRetakePhoto();">
+                            <svg class="icon icon-refresh-svg">
+                                <use xlink:href="#icon-refresh-svg"></use>
+                            </svg>
+                        </a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dim-div pScroll" style="display:none;">
+        <div class="popUpOuterSave pageReviewPopUp cameraErrorWrapper" id="CameraErrorPopup">
+            <div class="popUpInner"><a href="javascript:;" elname="closeVideo"
+                    onclick="closeCameraNotAccessPopup();event.stopPropagation();" class="flRight closePopup">
+                    <svg class="icon delete_icon">
+                        <use xlink:href="#icon-close"></use>
+                    </svg>
+                </a>
+                <div class="popupMainCont">
+                    <div class="cameraStrikeCont"><svg class="icon icon-cameraStrike">
+                            <use xlink:href="#icon-cameraStrike"></use>
+                        </svg></div>
+                    <h3>Turn on the camera permission in your browser to continue further</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var spacerGifLiveUrl = "https://static.zohocdn.com/forms/images/spacer.325472601571f31e1bf00674c368d335.gif";
+        var uploadServerEndpoint = "https://us4-files.zohopublic.com";
+        var uploadServerServicekey = "forms";
+        var zf_rule;
+        var zfPageRule;
+        var gtm;
+    </script>
+    <script type="module">ZFLive.encodedString = "";
+    
+    
+    
+    ZFLive.mode = "live"; 
+    
+    
+    // While rendering private form, ZFLive.mode="live". While rendering saved private/public form, ZFLive.mode="savedRecord". While rendering responseEdit private/public form, ZFLive.mode="edit".
+    $(document).ready(function(){
+    // Matrix_Freeze Changes
+    if(true) {
+    makeRowSticky();
+    }
+    // Matrix_Freeze Changes
+    
+    if($("#bgLiveDisabledDiv").length > 0){ // loading gif, which is added for defer page load.
+    $("#bgLiveDisabledDiv").fadeOut(function(){
+    $(this).remove();
+    });
+    }
+    
+    // Sometimes "User-Agent" won't be present in the Request header.
+    
+    var userAgent = "Mozilla\x2F5.0\x20\x28Windows\x20NT\x2010.0\x3B\x20Win64\x3B\x20x64\x29\x20AppleWebKit\x2F537.36\x20\x28KHTML,\x20like\x20Gecko\x29\x20Chrome\x2F109.0.0.0\x20Safari\x2F537.36";
+    if(userAgent.indexOf("Mobile")!=-1){
+    if(window.top.location != window.self.location){
+    $("#deviceCont").hide();
+    }
+    //This is captured for save and resume popup placement.
+    ZFLive.isReqFromMobile = true;
+    }
+    
+    var textTransformJsonArray=JSON.parse('[{"fieldLinkname":"Email","is_subform":false,"type":9,"case_sensitive_type":1}]');
+    ZFLive.textTransformlive(textTransformJsonArray,true);
+    
+    ZFLive.noresultsfound = 'No\x20results\x20found.';
+    
+    /*
+    Old forms have backgroundsecbg with padding:30px in custom.css . Now changed padding to templateWidth class.
+    Old Users have form width of 800px will change to 740px because of 30px padding on left and right of form.
+    Hence to differentiate old and new forms, .newThemeDummyWidth class is used.
+    This calculation is not needed for mobile view.
+    */
+    var customCssStr = $("#CUSTOM_STYLE_TAG").text();
+    ZFLive.sfdpdTemplate = "default";
+    ZFLive.dpdTemplate = "modelone";
+    if(ZFLive.isReqFromMobile == false && customCssStr.indexOf(".newThemeDummyWidth") == -1) {
+    var formElem = $(".templateWidth");
+    var computedWidth = parseInt($(formElem).outerWidth()) + 60;
+    if(window.top.location != window.self.location) {
+    /*
+    If form is embedded, for iframe size less than 768px media query will be applied. Hence computed width should not be applied.
+    For iframe size greater than 768px , apply the computed width.
+    */
+    var iframeWidth;
+    if(document.body.getBoundingClientRect().width) { //For all browsers
+    iframeWidth = document.body.getBoundingClientRect().width;
+    }else if(document.body.offsetWidth) { //For IE
+    iframeWidth = document.body.offsetWidth;
+    }
+    if(iframeWidth > 768) {
+    $(formElem).css("width",computedWidth + "px"); // No I18N
+    }
+    }else {
+    /*
+    For private form and perma form apply the computed width
+    */
+    $(formElem).css("width",computedWidth + "px"); // No I18N
+    }
+    }
+    setCustomDropdown();
+    
+    // On document load, the field width inside subform is changed based on for width
+    var firstPageUl = $("#formDiv").find("ul[elname=formBodyULName][page_no=1]");
+    setWidthForSFElem(firstPageUl);
+    setWidthForCurrencySymbolInSubForm(firstPageUl);
+    initializeSFSummary();
+    
+    if(isMobileBrowser()){
+    $("#formDiv").find("li[comptype=32]").each(function(i,eachli){
+    $(eachli).find("a[elname=webCamera]").hide();
+    $(eachli).find("div[elname=checkCamera]").addClass("onlyUpload");
+    });
+    }
+    else if( window.top.location !== window.self.location ){
+    var cameraaccess=false;
+    $("#formDiv").find("li[comptype=32]").each(function(i,eachli){
+    if(!cameraaccess){
+    $(eachli).find("a[elname=webCamera]").hide();
+    $(eachli).find("div[elname=checkCamera]").addClass("onlyUpload");
+    }
+    });
+    }
+    ZFLive.csrf = 'null';
+    ZFLive.accountsUrl = "https://accounts.zoho.com";
+    ZFLive.recID = "";
+    ZFLive.formID = "900807000000013009";
+    ZFLive.skipValidation = false
+    ZFLive.isSaveReq = false;
+    ZFLive.isFormAdmin=false; 
+    ZFLive.paymentMerchantList = null;
+    ZFLive.authNetApiLoginID = '';
+    ZFLive.authNetPublicClientKey = '';
+    ZFLive.captchaType ="0";
+    ZFLive.gsiteKey ="null";
+    ZFLive.gtheme ="light";
+    ZFLive.isLargeFileUploadForm = false; 
+    ZFLive.isLargeFileSizeAllowed = false; 
+    //Code for formula field
+    ZFLive.formulaJson = null;
+    
+    ZFLive.formulaJson = '\x5B\x5D';
+    
+    ZFLive.constraintJson;
+    
+    ZFLive.constraintJson = JSON.parse('\x7B\x22Email\x22\x3A\x7B\x22min_len\x22\x3A0,\x22range_type\x22\x3A1,\x22max_len\x22\x3A255\x7D,\x22Number\x22\x3A\x7B\x22is_neg\x22\x3Afalse,\x22min_len\x22\x3A0,\x22range_type\x22\x3A3,\x22max_len\x22\x3A18\x7D,\x22SingleLine2\x22\x3A\x7B\x22min_len\x22\x3A0,\x22pattern\x22\x3A\x7B\x7D,\x22range_type\x22\x3A1,\x22max_len\x22\x3A255\x7D,\x22PhoneNumber\x22\x3A\x7B\x22min_len\x22\x3A5,\x22max_len\x22\x3A15\x7D,\x22SingleLine\x22\x3A\x7B\x22min_len\x22\x3A0,\x22pattern\x22\x3A\x7B\x7D,\x22range_type\x22\x3A1,\x22max_len\x22\x3A255\x7D\x7D');
+    
+    ZFLive.dateConstraintJson;
+    
+    ZFLive.dateConstraintJson = JSON.parse('\x7B\x7D');
+    
+    ZFLive.sfUniqueJson = JSON.parse('\x7B\x7D');
+    ZFLive.currentDate;
+    
+    ZFLive.currentDate = '30-Jan-2023 07:59 PM';
+    
+    ZFLive.formulaCurrentDate;
+    
+    ZFLive.formulaCurrentDate = '30-Jan-2023 07:59 PM';
+    
+    ZFLive.formulaCurrentDateddmmyyyyhhmm;
+    
+    ZFLive.formulaCurrentDateddmmyyyyhhmm = '30-01-2023 07:59';
+    
+    ZFLive.formulaFieldsList = null;
+    
+    ZFLive.formulaFieldsList = '\x5B\x5D';
+    ZFLive.bindEventForFormula(); 
+    ZFLive.prefillFieldsList = undefined;
+    
+    ZFLive.prefillFieldsList = '\x5B\x5D';
+    
+    // Zoho CRM field
+    // Focussing Zoho CRM field needs to be done. In order to call the method focusZohoCrmField(), ZFCrmLive is initialized here.
+    // "*/form/*/formperma/*" - GET - Public form - zohoCrmFieldPropsJson=NULL, even if Zoho CRM field is present. For public form too, ZFCrmLive needs to be initialized as mandatory testing needs to be done if Zoho CRM field is present. Public Edit response, Public saved form are similar to that of Public form, that is zohoCrmFieldPropsJson=NULL.
+    // GET - Private form, GET - Private saved form - zohoCrmFieldPropsJson is not NULL. {} if Zoho CRM field is not present.
+    ZFCrmLive.zfCrmLive = new ZFCrmLive();
+    // CRM module API names, CRM data types, CRM field API names, Form field link names are only received. So, no output encoding is added.
+    ZFCrmLive.zfCrmLive.zohoCrmFieldPropsJson = {};
+    //To differentiate normal form and embedded form for splash message.
+    ZFLive.isEmbedded = true;
+    // Focussing of first field must not be done, if the form is embedded in some other site.
+    if(window.top.location === window.self.location) {
+    ZFLive.isEmbedded = false;
+    focusFirstLiElemOnLoad();
+    //Only for private,shared,perma form geolocation will be captured. But not for Embedded forms.
+    
+    }
+    disableButtonNotNeeded();
+    
+    $('form[name=test]').find('input, select').keypress(function(e){
+    if ( e.which == 13 ) // Enter key = keycode 13
+    {
+    // preventDefault action is done so that submit action for form is not getting called automatically.
+    e.preventDefault();
+    var fldLiElem = $(this).closest("li[elname=\"livefield-elem\"]"); // No I18N
+    //If form is submitted by pressing ENTER, splash message is displayed over current focus element.
+    ZFLive.currentFocusElem = fldLiElem;
+    var fldCompType = parseInt($(fldLiElem).attr("comptype")); // No I18N
+    /* If livefield-elem <li>is not present, then fldCompType=NaN and submission of form happens.
+    If 'comptype' attribute is not present, then fldCompType=NaN and submission of form happens.
+    */
+    if(fldCompType !== ZFFieldTypeConstants.ZOHO_CRM) { // When 'Enter' key is pressed in Zoho CRM field, the form must not be submitted.
+    var pageCount = $("#formBodyDiv").find('ul[elname=formBodyULName]').length;
+    var pageNum = $(this).closest('ul[elname=formBodyULName]').attr('page_no'); // No I18N
+    if(pageCount != pageNum){
+    $("#formRedirectURL").find('ul[elname=footer][page_no='+pageNum+']').find('button[elname=next]').click();
+    // Focussing of first field is done in the 'click' action of Next button.
+    }else{
+    
+    // Form submit action through enter key press is blocked while submission process is taking place.
+    if($('button[elname="submit"]').prop("disabled") != true){
+    $('form[name=test]').find("button[elname=submit]")[0].click();
+    }
+    
+    }
+    } // comptype 'if' block ends. // No I18N
+    }
+    });
+    $('form[name=test]').find("button[elname=submit]").click(function(e) { 
+    e.preventDefault();
+    if(uploadObjects.length == 0){
+    
+    var merchantType = $("#test").find("div[elname=merchantDiv]").attr("merchantType"); // No I18N
+    if(merchantType != null ){
+    performPaymentAndSubmitData(merchantType);
+    } else {
+    //Event is needed to differentiate whether form submitted by click or by pressing ENTER for displaying Splash Message.
+    ZFLive.currEvent = e;
+    ZFLive.ValidateAndSubmitData();
+    }
+    } else {
+    var errorObj = ZFLive.validateForm(Mode.LIVE, true);
+    if (errorObj.length == 0) {
+    if (uploadObjects.length == 0) {
+    $(this).trigger('click');    // No I18N
+    } else {
+    ZFLive.submitButtonClicked = true;
+    ZFLive.actionBtn = this;
+    $("#pleaseWait_Div").show();
+    setPopUpElemPosition($("#pleaseWait_DivCont")); // No I18N
+    }
+    } else {
+    showError(errorObj);
+    resetCaptcha();
+    }
+    }
+    });
+    $('form[name=test]').find("button[elname=update]").click(function(e) { 
+    e.preventDefault();
+    if(uploadObjects.length == 0){
+    
+    $('form[name=test]').find("button[elname=update]").attr("recordLinkID","");// No I18N
+    ZFLive.ValidateAndUpdateDataForLiveEdit();
+    } else {
+    var errorObj = ZFLive.validateForm(true);
+    if (errorObj.length == 0) {
+    if (uploadObjects.length == 0) {
+    $(this).trigger('click');    // No I18N
+    } else {
+    ZFLive.submitButtonClicked = true;
+    ZFLive.actionBtn = this;
+    $("#pleaseWait_Div").show();
+    setPopUpElemPosition($("#pleaseWait_DivCont")); // No I18N
+    }
+    } else {
+    showError(errorObj);
+    resetCaptcha();
+    }
+    }
+    });
+    $('form[name=test]').find("button[elname=back],button[elname=next],button[elname=save],button[elname=submit],button[elname=update],button[elname=review]").mousedown(function(e){
+    if(!isIELessThan9() && typeof ZFLive.constraintJson !== ResponseKey.UNDEFINED){
+    e.preventDefault();
+    }
+    });
+    $('form[name=test]').find("button[elname=save]").click(function(e) { 
+    e.preventDefault();
+    if(uploadObjects.length == 0){
+    
+    $('form[name=test]').find("button[elname=save]").attr("recordLinkID","");// No I18N
+    ZFLive.ValidateAndSaveData();
+    } else {
+    ZFLive.isUploadSaveValidate = true;
+    var errorObj = ZFLive.validateForm(Mode.LIVE, false);
+    if (errorObj.length == 0) {
+    if(uploadObjects.length == 0){
+    $(this).trigger('click');    // No I18N
+    } else {
+    ZFLive.submitButtonClicked = true;
+    ZFLive.actionBtn = this;
+    // $("#savingDiv").show();
+    $("#plainLoading").show();
+    setPopUpElemPosition($("#plainLoadingCont")); // No I18N
+    }
+    } else {
+    showError(errorObj);
+    resetCaptcha();
+    }
+    }
+    });
+    ZFLive.ShowPageTitle;
+    $('form[name=test]').find("button[elname=review]").click(function(e) { 
+    e.preventDefault();
+    if(uploadObjects.length == 0){
+    ZFLive.ShowPageTitle = 1
+    ZFLive.reviewType = 1
+    ZFLive.reviewData();
+    } else {
+    if(uploadObjects.length == 0){
+    $(this).trigger('click');    // No I18N
+    } else {
+    ZFLive.submitButtonClicked = true;
+    ZFLive.actionBtn = this;
+    $("#reviewLoad_Div").show();
+    setPopUpElemPosition($("#reviewLoad_DivCont")); // No I18N
+    }
+    }
+    ZFLive.disableReviewBtn();
+    });
+    
+    // For Forms saved with Custom Theme.
+    addCustomCSSStyles();
+    
+    // checkAlign();
+    
+    if(ZFLive.formulaJson != null){
+    // Formula will be calculated even when rules are not present, as it has to be calculated with initial value or prefil values.
+    // Formula calculation should be inside Document.ready, as ZFLive.formulaJson will be initialzed within it.
+    ZFLive.evalExpressionOnFormLoad();
+    }
+    triggerFormResize();
+    
+    ZFLive.preevalPrefillFldLabel();
+    preventCutCopyPasteInEmailReconf();
+    preventCutCopyPasteInPhoneReconf();
+    });
+    ZFLive.isSalesIQIntegrationEnabled = false;
+    ZFLive.isPageSenseIntegrationEnabled = false;
+    ZFLive.salesIQFieldsArray = null;
+    // Field rules
+    zf_rule = new ZFRule();
+    zfPageRule = new ZFPageRule();
+    
+    if(typeof ZFGTMUtil == "function"){
+    gtm = new ZFGTMUtil();
+    ZFGTMUtil.gtmJSON={};
+    gtm.bindGTMEvents();
+    }</script>
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>

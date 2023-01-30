@@ -10,6 +10,7 @@
     
 
 
+
     <form action='https://forms.zohopublic.com/emertxe/form/Zohoformtesting/formperma/vY1i4FekcyBG5f4TqFTZDm13TQgcPGnoNY41uDFZ84c/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data' 
     class="emertxe-stc-form">
         <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
@@ -56,8 +57,8 @@
             </label>
 
             <input type="text"  maxlength="10"  id="international_PhoneNumber_countrycodeval2" placeholder="" required/>
-
             <input type="hidden" compname="PhoneNumber_countrycodeval" name="PhoneNumber_countrycodeval" phoneFormat="1" maxlength="10"  id="international_PhoneNumber_countrycodeval" placeholder=""/>
+            <span class="number-notice" style="color: red;"></span>
         </div>
         <div class="emertxe-stc-field">
             <label>Code</label>
@@ -148,6 +149,9 @@
     .emertxe-stc-form {
         text-align: center;
     }
+      .iti{
+        width:100%;
+      }
     </style>
     
 
@@ -159,22 +163,23 @@
             initialCountry: "in",
             separateDialCode: true,
         });
-    jQuery( ".emertxe-stc-form *" ).click(function() {
+        jQuery( ".emertxe-stc-form *" ).click(function() {
             var phone_number = jQuery("#international_PhoneNumber_countrycodeval2").val();
             var code_number = jQuery(".iti__selected-dial-code").text();
-
             jQuery("#international_PhoneNumber_countrycodeval").val(code_number+phone_number);
 
-            var xxx = jQuery("#international_PhoneNumber_countrycodeval").val(); 
-            console.log(xxx);
-
-
+            if(phone_number.length < 10 && phone_number.length != 0){
+                jQuery('.emertxe-stc-form button').attr("disabled", true);
+                jQuery('.emertxe-stc-form .number-notice').html('Number must be 10 digits');
+            }else{
+                jQuery('.emertxe-stc-form button').attr("disabled", false);
+                jQuery('.emertxe-stc-form .number-notice').html('');
+            }
 
         });
       
       
     </script>
-
 
 
 

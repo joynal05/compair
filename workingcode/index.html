@@ -41,15 +41,13 @@ class="emertxe-stc-form">
         <!--Phone-->
         <label> Phone 
         <em>*</em>
-        </label>
-
-        <input type="text"  maxlength="10"  id="international_PhoneNumber_countrycodeval2" placeholder="" required/>
-
-        <input type="hidden" compname="PhoneNumber_countrycodeval" name="PhoneNumber_countrycodeval" phoneFormat="1" maxlength="10"  id="international_PhoneNumber_countrycodeval" placeholder=""/>
+        </label>        
+        <input type="text" compname="PhoneNumber_countrycodeval" name="PhoneNumber_countrycodeval" phoneFormat="1" maxlength="10"  id="international_PhoneNumber_countrycodeval" placeholder=""/>
+        <span class="number-notice" style="color: red;"></span>
     </div>
-    <div class="emertxe-stc-field">
+    <div class="emertxe-stc-field emertxe-stc-field-hide">
         <label>Code</label>
-        <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=true maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="" required/>
+        <input type="hidden" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=true maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder=""/>
         <p>Enter only Number</p>
     </div>
     <div class="emertxe-stc-field">
@@ -139,6 +137,9 @@ text-align:left }
   .iti{
     width:100%;
   }
+  .emertxe-stc-field-hide{
+    display: none;
+  }
 </style>
 
 
@@ -153,12 +154,16 @@ text-align:left }
     jQuery( ".emertxe-stc-form *" ).click(function() {
         var phone_number = jQuery("#international_PhoneNumber_countrycodeval2").val();
         var code_number = jQuery(".iti__selected-dial-code").text();
+        jQuery("#international_PhoneNumber_countrycode").val(code_number+phone_number);
 
-        jQuery("#international_PhoneNumber_countrycodeval").val(code_number+phone_number);
+        if(phone_number.length < 10 && phone_number.length != 0){
+            jQuery('.emertxe-stc-form button').attr("disabled", true);
+            jQuery('.emertxe-stc-form .number-notice').html('Number must be 10 digits');
+        }else{
+            jQuery('.emertxe-stc-form button').attr("disabled", false);
+            jQuery('.emertxe-stc-form .number-notice').html('');
+        }
 
-        var xxx = jQuery("#international_PhoneNumber_countrycodeval").val(); 
-        console.log(xxx);
-        
     });
   
   

@@ -7,36 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="zf_div_4U04tt464U09dXfrgM36rZmrjjF9uAj_OWf_3Nyl4Gg"></div><script type="text/javascript">(function() {
-        try{
-        var f = document.createElement("iframe");
-        f.src = 'https://forms.zohopublic.com/emertxe/form/Zohoformtesting/formperma/4U04tt464U09dXfrgM36rZmrjjF9uAj_OWf_3Nyl4Gg?zf_rszfm=1';
-        
-        f.style.border="none";
-        f.style.height="974px";
-        f.style.width="90%";
-        f.style.transition="all 0.5s ease";
-        var d = document.getElementById("zf_div_4U04tt464U09dXfrgM36rZmrjjF9uAj_OWf_3Nyl4Gg");
-        d.appendChild(f);
-        window.addEventListener('message', function (){
-        var evntData = event.data;
-        if( evntData && evntData.constructor == String ){
-        var zf_ifrm_data = evntData.split("|");
-        if ( zf_ifrm_data.length == 2 ) {
-        var zf_perma = zf_ifrm_data[0];
-        var zf_ifrm_ht_nw = ( parseInt(zf_ifrm_data[1], 10) + 15 ) + "px";
-        var iframe = document.getElementById("zf_div_4U04tt464U09dXfrgM36rZmrjjF9uAj_OWf_3Nyl4Gg").getElementsByTagName("iframe")[0];
-        if ( (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0 ) {
-        var prevIframeHeight = iframe.style.height;
-        if ( prevIframeHeight != zf_ifrm_ht_nw ) {
-        iframe.style.height = zf_ifrm_ht_nw;
-        }
-        }
-        }
-        }
-        }, false);
-        }catch(e){}
-        })();</script>
+ 
+<!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
+
+
 <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
 <form action='https://forms.zohopublic.com/emertxe/form/Zohoformtesting/formperma/vY1i4FekcyBG5f4TqFTZDm13TQgcPGnoNY41uDFZ84c/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
     <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
@@ -50,9 +24,9 @@
     <h2>Zoho form testing</h2>
     <p>Testing form</p>
     <!--Single Line-->
-    <label>
-        First Name
-        <em>*</em>
+    <label> 
+    First Name 
+    <em>*</em>
     </label>
     <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" placeholder="First&#x20;Name" />
     <p>Please enter the first name!</p>
@@ -73,9 +47,7 @@
     <label> Phone 
     <em>*</em>
     </label>
-    <input type="text" compname="PhoneNumber_countrycodeval" name="PhoneNumber_countrycodeval" phoneFormat="1" maxlength="10"  id="international_PhoneNumber_countrycodeval" placeholder=""/>
-    <label>Code</label>
-    <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=true maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="" />
+    <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="" />
     <label>Number</label>
     <!--Dropdown-->
     <label>
@@ -102,6 +74,5 @@
     <button type="submit"><em>Submit</em></button></form>
 
 
-    
 </body>
 </html>

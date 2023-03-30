@@ -1,4 +1,4 @@
-<html class="no-js js_active  vc_mobile  vc_transform  vc_transform " lang="en-US" prefix="og: https://ogp.me/ns#">
+<html class="no-js js_active  vc_desktop  vc_transform  vc_transform " lang="en-US" prefix="og: https://ogp.me/ns#">
 
 <head>
     <meta charset="UTF-8">
@@ -10324,7 +10324,7 @@
 </head>
 
 <body
-    class="home page-template-default page page-id-2 logged-in admin-bar wp-embed-responsive grve-ext-ver-1.4.0 grve-wpb-ext-ver-1.4.5 grve-body grve-stretched grve-header-horizontal grve-header-overlapping grve-header-is-sticky grve-is-device wpb-js-composer js-comp-ver-6.10.0 vc_responsive customize-support"
+    class="home page-template-default page page-id-2 logged-in admin-bar wp-embed-responsive grve-ext-ver-1.4.0 grve-wpb-ext-ver-1.4.5 grve-body grve-stretched grve-header-horizontal grve-header-overlapping grve-header-is-sticky wpb-js-composer js-comp-ver-6.10.0 vc_responsive customize-support"
     data-new-gr-c-s-check-loaded="14.1102.0" data-gr-ext-installed="">
     <script>
         (function () {
@@ -10340,7 +10340,7 @@
             b[c] += (window.postMessage && request ? ' ' : ' no-') + cs;
         }());
     </script>
-    <div id="wpadminbar" class="nojq mobile">
+    <div id="wpadminbar" class="nojq">
         <div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
             <ul id="wp-admin-bar-root-default" class="ab-top-menu">
                 <li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item" aria-haspopup="true"
@@ -10809,9 +10809,8 @@
         <header id="grve-header">
             <!-- Main Header -->
             <div id="grve-main-header"
-                class="grve-layout-default grve-style-1 grve-scrollup-sticky grve-sticky-header grve-skin-sticky grve-fixed grve-sticky-ready"
-                data-sticky="scrollup" data-sticky-height="70" data-header-skin="default"
-                style="position: fixed; top: 0px; width: 1236px;">
+                class="grve-layout-default grve-style-1 grve-skin-default grve-scrollup-sticky grve-sticky-ready"
+                data-sticky="scrollup" data-sticky-height="70" data-header-skin="default">
                 <div class="grve-container">
                     <div class="grve-header-row">
                         <div class="grve-left-area">
@@ -10873,9 +10872,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div
-                style="position: absolute; width: 1236px; height: 71.8438px; display: block; vertical-align: baseline; float: none;">
             </div>
             <!-- End Main Header -->
 
@@ -11494,11 +11490,12 @@
 
 
                                                                         <div class="flickity-viewport"
-                                                                            style="height: 250px; touch-action: pan-y;">
+                                                                            style="height: 190px; touch-action: pan-y;">
                                                                             <div class="flickity-slider"
-                                                                                style="left: 0px; transform: translateX(18.17%);">
-                                                                                <div class="grve-element grve-text is-selected"
-                                                                                    style="position: absolute; left: 0%;">
+                                                                                style="left: 0px; transform: translateX(-48.5%);">
+                                                                                <div class="grve-element grve-text"
+                                                                                    style="position: absolute; left: 0%;"
+                                                                                    aria-hidden="true">
                                                                                     <blockquote>
                                                                                         <p>
                                                                                             Christine helped our
@@ -11520,9 +11517,8 @@
                                                                                     <p>– Abbe B.</p>
 
                                                                                 </div>
-                                                                                <div class="grve-element grve-text"
-                                                                                    style="position: absolute; left: 66.67%;"
-                                                                                    aria-hidden="true">
+                                                                                <div class="grve-element grve-text is-selected"
+                                                                                    style="position: absolute; left: 66.67%;">
                                                                                     <blockquote>
                                                                                         <p>
                                                                                             Christine has tremendous
@@ -11547,8 +11543,8 @@
 
                                                                                 </div>
                                                                                 <div class="grve-element grve-text"
-                                                                                    style="position: absolute; left: -66.67%;"
-                                                                                    aria-hidden="true">
+                                                                                    aria-hidden="true"
+                                                                                    style="position: absolute; left: 133.33%;">
                                                                                     <blockquote>
                                                                                         <p>
                                                                                             I had the pleasure of
@@ -12121,7 +12117,7 @@
                                                     } else if (!is_redirect) {
                                                         var confirmation_content = jQuery(this)
                                                             .contents().find('.GF_AJAX_POSTBACK')
-                                                            .html();
+                                                        .html();
                                                         if (!confirmation_content) {
                                                             confirmation_content = contents;
                                                         }
@@ -12138,7 +12134,7 @@
                                                             window['gf_submitting_3'] = false;
                                                             wp.a11y.speak(jQuery(
                                                                 '#gform_confirmation_message_3'
-                                                            ).text());
+                                                                ).text());
                                                         }, 50);
                                                     } else {
                                                         jQuery('#gform_3').append(contents);

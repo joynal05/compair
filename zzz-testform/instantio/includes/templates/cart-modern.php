@@ -116,7 +116,7 @@ do_action( 'woocommerce_before_cart' ); ?>
                                 echo apply_filters( 'woocommerce_cart_item_price', WC()->cart->get_product_price( $_product ), $cart_item, $cart_item_key ); // PHPCS: XSS ok.
                             ?>
                         </div>
-                        <div class="ins-cart-item-quantity ins-cart-qty-wrap">
+                        <div id="ins-cart-item-quantity" class="ins-cart-item-quantity ins-cart-qty-wrap">
                             <?php
                                 if ( $_product->is_sold_individually() ) {
                                     $min_quantity = 1;
@@ -196,13 +196,7 @@ do_action( 'woocommerce_before_cart' ); ?>
                     <?php if ( wc_coupons_enabled() ) { ?>
                         <div class="coupon">
                             <!-- <label for="coupon_code"><?php //esc_html_e( 'Coupon:', 'woocommerce' ); ?></label>  -->
-                            
-                            <input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="<?php esc_attr_e( 'Coupon code', 'woocommerce' ); ?>" />
-                            
-                            <button type="submit" class="button<?php echo esc_attr( wc_wp_theme_get_element_class_name( 'button' ) ? ' ' . wc_wp_theme_get_element_class_name( 'button' ) : '' ); ?>" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'woocommerce' ); ?>">
-                                <?php esc_attr_e( 'Apply coupon', 'woocommerce' ); ?>
-                            </button>
-
+                            <input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="<?php esc_attr_e( 'Coupon code', 'woocommerce' ); ?>" /> <button type="submit" class="button<?php echo esc_attr( wc_wp_theme_get_element_class_name( 'button' ) ? ' ' . wc_wp_theme_get_element_class_name( 'button' ) : '' ); ?>" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'woocommerce' ); ?>"><?php esc_attr_e( 'Apply coupon', 'woocommerce' ); ?></button>
                             <?php do_action( 'woocommerce_cart_coupon' ); ?>
                         </div>
                     <?php } ?>

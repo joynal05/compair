@@ -239,7 +239,7 @@ class App {
             <div class="ins-cart-inner step-1 ins-cart-step active"> 
                 <?php require_once apply_filters( 'ins_cart_template', INS_INC_PATH . '/templates/cart-modern.php' ); ?> 
                
-            </div>  
+            </div></div>
             <?php do_action('ins_template_step_content'); ?>
         </div> 
         <?php

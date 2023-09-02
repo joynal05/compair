@@ -477,7 +477,7 @@
 		e.preventDefault();
 		let minus = $(this)
 			.closest(".ins-cart-qty-wrap")
-			.find('.quantity input[type="number"].qty');
+			.find('.quantity input[type="text"].qty');
 
 		let qty = minus.val();
 		if (qty >= 1) {
@@ -491,7 +491,7 @@
 		e.preventDefault();
 		let plus = $(this)
 			.closest(".ins-cart-qty-wrap")
-			.find('.quantity input[type="number"].qty');
+			.find('.quantity input[type="text"].qty');
 		let qty = plus.val();
 		plus.val(parseInt(qty) + 1);
 		$('.ins-checkout-layout button[name="update_cart"]').trigger("click");

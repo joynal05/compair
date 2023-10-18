@@ -1,0 +1,149 @@
+.tf-hero-section-wrap {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 56px;
+
+    .tf-container {
+
+        .tf-hero-content {
+            min-height: 566px;
+            margin: 0;
+            padding: 0;
+
+            .tf-wish-and-share {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                margin-top: 210px;
+                display: flex;
+                gap: 16px;
+
+                a.share-toggle,
+                a.tf-wishlist {
+                    margin: 0;
+                    padding: 0;
+                    height: 32px;
+                    width: 32px;
+                    border-radius: 100px;
+                    background: rgba(181, 142, 83, 0.50);
+                    box-shadow: 0px 14px 30px 0px rgba(0, 23, 100, 0.07);
+                    text-align: center;
+                    line-height: 32px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #fff;
+                }
+                .tf-share{
+                    .share-tour-content{
+                        .tf-dropdown-share-content {
+                            background: #FFFFFF;
+                            border-radius: 8px;
+                            padding: 16px 10px;
+                            width: 280px;
+                            text-align: center;
+                            box-shadow: 0px 13px 30px 0px #e0e8ee;
+                            ul{
+                                li{
+                                    display: inline-block;
+                                    a{
+                                        display: inline-block;
+                                        padding: 10px 6px;
+                                        i{
+                                            font-size: 16px;
+                                            color: rgba(181, 142, 83, 1);
+                                        }
+                                        &:hover{
+                                            background-color: transparent;
+                                        }
+                                    }
+                                    button{
+                                        padding: 10px 6px;
+                                        background-color: transparent !important;
+                                        border: 0px solid;
+                                        i, span{
+                                            color: rgba(181, 142, 83, 1);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .tf-hero-bottom-area {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+                padding-bottom: 48px;
+
+                .tf-head-title {
+                    .tf-title-meta {
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 31px;
+                        color: #fff;
+                        display: flex;
+                        gap: 8px;
+
+                        a {
+                            color: #fff;
+                            text-decoration: none;
+                            font-size: 24px;
+                            font-family: Josefin Sans;
+                            font-weight: 400;
+                            line-height: 31.20px;
+                        }
+                    }
+                }
+
+                .tf-hero-gallery-videos {
+                    display: flex;
+                    gap: 14px;
+
+                    &>div {
+                        height: 80px;
+                        width: 200px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: #30281c9e;
+                        color: #fff;
+                        background-size: cover;
+                        background-position: center;
+                        cursor: pointer;
+                    }
+                    a {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100%;
+                        width: 100%;
+                        color: #fff;
+
+                        img {
+                            height: 24px;
+                            width: 24px;
+                        }
+                    }
+                }
+            }
+        }
+        .tf-archive-hero-content {
+            display: flex;
+            justify-content: flex-end;
+            .tf-head-title {
+                margin: 0 0 38px 0;
+                display: flex;
+                align-items: center;
+                gap: 32px;
+            }
+            .tf-title-meta {
+                font-size: 24px;
+                line-height: 1.3;
+            }
+        }
+    }
+}

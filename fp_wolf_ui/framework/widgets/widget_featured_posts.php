@@ -23,7 +23,7 @@ function fairpixels_register_feat_posts_widget() {
  * the settings, form, display, and update.  Nice!
  *
  */
-class fairpixels_feat_posts_widget extends WP_Widget {
+class fairpixels_feat_posts_widget extends WP_widget_xxx {
 
 	/**
 	 * Widget setup.

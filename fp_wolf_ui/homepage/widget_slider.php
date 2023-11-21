@@ -21,7 +21,7 @@ function fp_home_slider_widget_init(){
  * the settings, form, display, and update.  Nice!
  *
  */ 
-class fp_home_slider_widget extends WP_Widget {
+class fp_home_slider_widget extends WP_widget_xxx {
 	
 	/**
 	 * Widget setup.

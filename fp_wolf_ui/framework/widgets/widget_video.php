@@ -23,7 +23,7 @@ function fp_video_widget_init() {
  * the settings, form, display, and update.  Nice!
  *
  */
-class fp_video_widget extends WP_Widget {
+class fp_video_widget extends WP_widget_xxx {
 
 	/**
 	 * Widget setup.

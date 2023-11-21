@@ -23,7 +23,7 @@ function fp_flickr_widget_init() {
  * the settings, form, display, and update.  Nice!
  *
  */ 
-class fp_flickr_widget extends WP_Widget {
+class fp_flickr_widget extends WP_widget_xxx {
 	
 	/**
 	 * Widget setup.

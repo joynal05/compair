@@ -21,7 +21,7 @@ function fp_single_cats_widget_init(){
  * the settings, form, display, and update.  Nice!
  *
  */ 
-class fp_single_cats_widget extends WP_Widget {
+class fp_single_cats_widget extends WP_widget_xxx {
 	
 	/**
 	 * Widget setup.

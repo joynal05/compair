@@ -23,7 +23,7 @@ function fp_adsingle_widget_init(){
  * the settings, form, display, and update.  Nice!
  *
  */
-class fp_adsingle_widget extends WP_widget{
+class fp_adsingle_widget extends WP_widget_xxx{
 	
 	/**
 	 * Widget setup.

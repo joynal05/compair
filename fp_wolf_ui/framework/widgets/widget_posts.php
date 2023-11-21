@@ -23,7 +23,7 @@ function fp_register_posts_widget() {
  * the settings, form, display, and update.  Nice!
  *
  */
-class fp_posts_widget extends WP_Widget {
+class fp_posts_widget extends WP_widget_xxx {
 	/**
 	 * Widget setup.
 	 */

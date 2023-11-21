@@ -13,7 +13,7 @@ function fp_subscribe_widget_init() {
 	register_widget( 'fp_subscribe_widget' );
 }
 
-class fp_subscribe_widget extends WP_Widget {
+class fp_subscribe_widget extends WP_widget_xxx {
 
 	function fp_subscribe_widget() {
 		$widget_ops = array( 'classname' => 'widget_subscribe', 'description' => 'Displays RSS Email Subscription Form' );

@@ -21,18 +21,18 @@ function fp_home_slider_widget_init(){
  * the settings, form, display, and update.  Nice!
  *
  */ 
-class fp_home_slider_widget extends WP_widget_xxx {
+class fp_home_slider_widget extends WP_widget {
 	
-	/**
-	 * Widget setup.
-	 */
-	function fp_home_slider_widget(){
-		/* Widget settings. */	
-		$widget_ops = array('classname' => 'feat-slider', 'description' => 'Displays the slider section within the content area on homepage.');
-		
-		/* Create the widget. */
-		$this->WP_Widget('fp_home_slider_widget', 'FairPixels: Homepage Slider', $widget_ops);
-	}
+    /**
+     * Widget setup.
+     */
+    function __construct() {
+        /* Widget settings. */    
+        $widget_ops = array('classname' => 'feat-slider', 'description' => 'Displays the slider section within the content area on homepage.');
+        
+        /* Create the widget. */
+        parent::__construct('fp_home_slider_widget', 'FairPixels: Homepage Slider', $widget_ops);
+    }
 	
 	/**
 	 * display the widget on the screen.

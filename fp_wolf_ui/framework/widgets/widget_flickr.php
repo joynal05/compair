@@ -23,17 +23,17 @@ function fp_flickr_widget_init() {
  * the settings, form, display, and update.  Nice!
  *
  */ 
-class fp_flickr_widget extends WP_widget_xxx {
+class fp_flickr_widget extends WP_widget {
 	
 	/**
 	 * Widget setup.
 	 */
-	function fp_flickr_widget() {
+	function __construct() {
 		/* Widget settings. */		
 		$widget_ops = array('classname' => 'widget_flickr', 'description' => 'Displays Flickr images.' );
 		
 		/* Create the widget. */
-		$this->WP_Widget('fp_flickr_widget', 'FairPixels: Flickr Widget ', $widget_ops);
+		parent::__construct('fp_flickr_widget', 'FairPixels: Flickr Widget ', $widget_ops);
 	}
 
 	/**

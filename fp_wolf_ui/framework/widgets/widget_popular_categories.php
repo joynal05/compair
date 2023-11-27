@@ -23,17 +23,17 @@ function fp_popular_categories_widget_init() {
  * the settings, form, display, and update.  Nice!
  *
  */
-class fp_popular_categories_widget extends WP_widget_xxx {
+class fp_popular_categories_widget extends WP_widget {
 
 	/**
 	 * Widget setup.
 	 */
-	function fp_popular_categories_widget() {
+	function __construct() {
 		/* Widget settings. */
 		$widget_ops = array( 'classname' => 'widget_popular_categories', 'description' => __('Displays the most popular categories. Suitable for the narrow sidebar', 'fairpixels') );
 
 		/* Create the widget. */
-		$this->WP_Widget( 'fp_popular_categories_widget', __('FairPixels: Popular Categories', 'fairpixels'), $widget_ops);
+		parent::__construct( 'fp_popular_categories_widget', __('FairPixels: Popular Categories', 'fairpixels'), $widget_ops);
 	}
 
 	/**

@@ -23,17 +23,17 @@ function fp_slider_widget_init() {
  * the settings, form, display, and update.  Nice!
  *
  */ 
-class fp_slider_widget extends WP_widget_xxx {
+class fp_slider_widget extends WP_widget {
 	
 	/**
 	 * Widget setup.
 	 */
-	function fp_slider_widget(){
+	function __construct(){
 		/* Widget settings. */	
 		$widget_ops = array('classname' => 'widget_slider', 'description' => 'Displays the slider in the sidebar.');
 		
 		/* Create the widget. */
-		$this->WP_Widget('fp_slider_widget', 'FairPixels: Sidebar Slider', $widget_ops);
+		parent::__construct('fp_slider_widget', 'FairPixels: Sidebar Slider', $widget_ops);
 	}
 	
 	/**

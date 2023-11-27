@@ -235,4 +235,4 @@ function customize_editor_role(){
 
 add_action('admin_init', 'customize_editor_role');
 
-?>
+

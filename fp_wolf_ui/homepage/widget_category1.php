@@ -21,16 +21,16 @@ function fp_home_cat1_widget_init(){
  * the settings, form, display, and update.  Nice!
  *
  */ 
-class fp_home_cat1_widget extends WP_widget_xxx {	
+class fp_home_cat1_widget extends WP_widget {	
 	/**
 	 * Widget setup.
 	 */
-	function fp_home_cat1_widget(){
+	function __construct(){
 		/* Widget settings. */	
 		$widget_ops = array('classname' => 'feat-cat feat-cat1', 'description' => 'Displays the category section on homepage. Use it in the Homepage sidebar.');
 		
 		/* Create the widget. */
-		$this->WP_Widget('fp_home_cat1_widget', 'FairPixels: Homepage Category 1', $widget_ops);
+		parent::__construct('fp_home_cat1_widget', 'FairPixels: Homepage Category 1', $widget_ops);
 	}
 	
 	/**

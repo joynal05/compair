@@ -24,18 +24,18 @@ function fp_pinterest_widget_init() {
  * the settings, form, display, and update.  Nice!
  *
  */
-class fp_pinterest_widget extends WP_widget_xxx {
+class fp_pinterest_widget extends WP_widget {
 
 	/**
 	 * Widget setup.
 	 */
-	function fp_pinterest_widget() {
+	function __construct() {
 	
 		/* Widget settings. */
 		$widget_ops = array( 'classname' => 'widget_pinterest', 'description' => __('Displays the recent pins from pinterest.', 'fairpixels') );
 
 		/* Create the widget */
-		$this->WP_Widget( 'fp_pinterest_widget', __('FairPixels: Pinterest', 'fairpixels'), $widget_ops );
+		parent::__construct( 'fp_pinterest_widget', __('FairPixels: Pinterest', 'fairpixels'), $widget_ops );
 	}
 	
 	/**

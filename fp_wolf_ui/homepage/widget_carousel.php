@@ -21,17 +21,17 @@ function fp_home_carousel_widget_init(){
  * the settings, form, display, and update.  Nice!
  *
  */ 
-class fp_home_carousel_widget extends WP_widget_xxx {	
-	/**
-	 * Widget setup.
-	 */
-	function fp_home_carousel_widget(){
-		/* Widget settings. */	
-		$widget_ops = array('classname' => 'feat-carousel', 'description' => 'Displays the carousel section on homepage.');
-		
-		/* Create the widget. */
-		$this->WP_Widget('fp_home_carousel_widget', 'FairPixels: Homepage Carousel', $widget_ops);
-	}
+class fp_home_carousel_widget extends WP_widget{	
+   	/**
+     * Widget setup.
+     */
+    function __construct() {
+        /* Widget settings. */    
+        $widget_ops = array('classname' => 'feat-carousel', 'description' => 'Displays the carousel section on the homepage.');
+        
+        /* Create the widget. */
+        parent::__construct('fp_home_carousel_widget', 'FairPixels: Homepage Carousel', $widget_ops);
+    }
 	
 	/**
 	 * display the widget on the screen.

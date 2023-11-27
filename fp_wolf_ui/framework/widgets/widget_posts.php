@@ -23,16 +23,16 @@ function fp_register_posts_widget() {
  * the settings, form, display, and update.  Nice!
  *
  */
-class fp_posts_widget extends WP_widget_xxx {
+class fp_posts_widget extends WP_widget {
 	/**
 	 * Widget setup.
 	 */
-	function fp_posts_widget() {
+	function __construct() {
 		/* Widget settings. */
 		$widget_ops = array( 'classname' => 'widget-posts', 'description' => __('Displays the posts with large thumbnails. You can display latest, most commented or most read posts.', 'fairpixels') );
 
 		/* Create the widget. */
-		$this->WP_Widget( 'fp_posts_widget', __('FairPixels: Posts', 'fairpixels'), $widget_ops);
+		parent::__construct( 'fp_posts_widget', __('FairPixels: Posts', 'fairpixels'), $widget_ops);
 	}
 
 	/**

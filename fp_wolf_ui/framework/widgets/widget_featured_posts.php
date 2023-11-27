@@ -23,17 +23,17 @@ function fairpixels_register_feat_posts_widget() {
  * the settings, form, display, and update.  Nice!
  *
  */
-class fairpixels_feat_posts_widget extends WP_widget_xxx {
+class fairpixels_feat_posts_widget extends WP_widget {
 
 	/**
 	 * Widget setup.
 	 */
-	function fairpixels_feat_posts_widget() {
+	function __construct() {
 		/* Widget settings. */
 		$widget_ops = array( 'classname' => 'widget-feat-posts widget-postlist', 'description' => __('Displays the featured posts with one main post and rest of the posts with small thumbnails.', 'fairpixels') );
 
 		/* Create the widget. */
-		$this->WP_Widget( 'fairpixels_feat_posts_widget', __('FairPixels: Featured Posts', 'fairpixels'), $widget_ops);
+		parent::__construct( 'fairpixels_feat_posts_widget', __('FairPixels: Featured Posts', 'fairpixels'), $widget_ops);
 	}
 
 	/**

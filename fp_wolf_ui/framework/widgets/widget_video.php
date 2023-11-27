@@ -23,17 +23,17 @@ function fp_video_widget_init() {
  * the settings, form, display, and update.  Nice!
  *
  */
-class fp_video_widget extends WP_widget_xxx {
+class fp_video_widget extends WP_widget {
 
 	/**
 	 * Widget setup.
 	 */
-	function fp_video_widget() {
+	function __construct() {
 		/* Widget settings. */
 		$widget_ops = array( 'classname' => 'widget_video', 'description' => __('Embed a video in the sidebar.', 'fairpixels') );
 
 		/* Create the widget. */
-		$this->WP_Widget( 'fp_video_widget', __('FairPixels: Featured Video', 'fairpixels'), $widget_ops);
+		parent::__construct( 'fp_video_widget', __('FairPixels: Featured Video', 'fairpixels'), $widget_ops);
 	}
 
 	/**

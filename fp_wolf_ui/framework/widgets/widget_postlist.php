@@ -23,16 +23,16 @@ function fp_register_postlist_widget() {
  * the settings, form, display, and update.  Nice!
  *
  */
-class fp_postlist_widget extends WP_widget_xxx {
+class fp_postlist_widget extends WP_widget {
 	/**
 	 * Widget setup.
 	 */
-	function fp_postlist_widget() {
+	function __construct() {
 		/* Widget settings. */
 		$widget_ops = array( 'classname' => 'widget-postlist', 'description' => __('Displays the post list with small thumbnails.', 'fairpixels') );
 
 		/* Create the widget. */
-		$this->WP_Widget( 'fp_postlist_widget', __('FairPixels: Post List', 'fairpixels'), $widget_ops);
+		parent::__construct( 'fp_postlist_widget', __('FairPixels: Post List', 'fairpixels'), $widget_ops);
 	}
 
 	/**

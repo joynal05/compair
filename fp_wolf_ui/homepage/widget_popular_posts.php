@@ -21,17 +21,17 @@ function fp_home_popular_posts_widget_init(){
  * the settings, form, display, and update.  Nice!
  *
  */ 
-class fp_home_popular_posts_widget extends WP_widget_xxx {
+class fp_home_popular_posts_widget extends WP_widget {
 	
 	/**
 	 * Widget setup.
 	 */
-	function fp_home_popular_posts_widget(){
+	function __construct(){
 		/* Widget settings. */	
 		$widget_ops = array('classname' => 'popular-posts', 'description' => 'Displays the popular posts on homepage.');
 		
 		/* Create the widget. */
-		$this->WP_Widget('fp_home_popular_posts_widget', 'FairPixels: Homepage Popular Posts', $widget_ops);
+		parent::__construct('fp_home_popular_posts_widget', 'FairPixels: Homepage Popular Posts', $widget_ops);
 	}
 	
 	/**

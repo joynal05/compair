@@ -23,17 +23,17 @@ function fp_aboutus_widget_init() {
  * the settings, form, display, and update.  Nice!
  *
  */
-class fp_aboutus_widget extends WP_widget_xxx {
+class fp_aboutus_widget extends WP_widget {
 
 	/**
 	 * Widget setup.
 	 */
-	function fp_aboutus_widget() {
+	function __construct() {
 		/* Widget settings. */
 		$widget_ops = array( 'classname' => 'widget_social', 'description' => __('Displays the the social links with the text and logo', 'fairpixels') );
 
 		/* Create the widget. */
-		$this->WP_Widget( 'fp_aboutus_widget', __('FairPixels: About us', 'fairpixels'), $widget_ops);
+		parent::__construct( 'fp_aboutus_widget', __('FairPixels: About us', 'fairpixels'), $widget_ops);
 	}
 
 	/**

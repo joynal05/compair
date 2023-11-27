@@ -13,17 +13,17 @@ function fp_subscribe_widget_init() {
 	register_widget( 'fp_subscribe_widget' );
 }
 
-class fp_subscribe_widget extends WP_widget_xxx {
+class fp_subscribe_widget extends WP_widget {
 
-	function fp_subscribe_widget() {
+	function __construct() {
 		$widget_ops = array( 'classname' => 'widget_subscribe', 'description' => 'Displays RSS Email Subscription Form' );
-		$this->WP_Widget( 'fp_subscribe_widget', 'FairPixels: RSS Email Subscription', $widget_ops);
+		parent::__construct( 'fp_subscribe_widget', 'FairPixels: RSS Email Subscription', $widget_ops);
 	}
 	
 	function form($instance) {		
 		$instance = wp_parse_args( (array) $instance, array('title' => 'Subscribe now', 'subscribe_text' => 'Get all latest content delivered to your email a few times a month.', 'feedid' => '') );
 
-?>
+	?>
 
 	<div class="widget-field">			
 		<label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php _e('Title:', 'fairpixels'); ?></label>

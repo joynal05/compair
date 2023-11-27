@@ -23,17 +23,17 @@ function fp_recent_comments_widget_init() {
  * the settings, form, display, and update.  Nice!
  *
  */
-class fp_recent_comments_widget extends WP_widget_xxx {
+class fp_recent_comments_widget extends WP_widget {
 
 	/**
 	 * Widget setup.
 	 */
-	function fp_recent_comments_widget() {
+	function __construct() {
 		/* Widget settings. */
 		$widget_ops = array( 'classname' => 'widget_comments', 'description' => __('Displays the recent comments with thumbnails.', 'fairpixels') );
 
 		/* Create the widget. */
-		$this->WP_Widget( 'fp_recent_comments_widget', __('FairPixels: Recent Comments', 'fairpixels'), $widget_ops);
+		parent::__construct( 'fp_recent_comments_widget', __('FairPixels: Recent Comments', 'fairpixels'), $widget_ops);
 	}
 
 	/**

@@ -23,18 +23,18 @@ function fp_adsingle_widget_init(){
  * the settings, form, display, and update.  Nice!
  *
  */
-class fp_adsingle_widget extends WP_widget_xxx{
+class fp_adsingle_widget extends WP_widget{
 	
 	/**
 	 * Widget setup.
 	 */
-	function fp_adsingle_widget(){
+	function __construct(){
 		
 		/* Widget settings. */
 		$widget_ops = array('classname' => 'widget_adsingle', 'description' => 'Displays Single full size ad in the sidebar.');
 		
 		/* Create the widget. */
-		$this->WP_Widget('fp_adsingle_widget', 'FairPixels: Sidebar Ad', $widget_ops);		
+		parent::__construct('fp_adsingle_widget', 'FairPixels: Sidebar Ad', $widget_ops);		
 	}
 	
 	/**

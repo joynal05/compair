@@ -30,17 +30,17 @@ function fp_lastest_tweets_widget_init() {
  * the settings, form, display, and update.  Nice!
  *
  */
-class fp_lastest_tweets_widget extends WP_widget_xxx {
+class fp_lastest_tweets_widget extends WP_widget {
 	
 	/**
 	 * Widget setup.
 	 */
-	function fp_lastest_tweets_widget() {
+	function __construct() {
 		/* Widget settings */
 		$widget_ops = array( 'classname' => 'widget_twitter', 'description' => __('A widget to display lastest tweets in the sidebar.', 'fairpixels') );
 
 		/* Create the widget */
-		$this->WP_Widget( 'fp_lastest_tweets_widget', __('Fairpixels: Lastest Tweets', 'fairpixels'), $widget_ops );
+		parent::__construct( 'fp_lastest_tweets_widget', __('Fairpixels: Lastest Tweets', 'fairpixels'), $widget_ops );
 	}
 	
 	/**

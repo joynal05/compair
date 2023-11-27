@@ -21,17 +21,17 @@ function fp_single_cats_widget_init(){
  * the settings, form, display, and update.  Nice!
  *
  */ 
-class fp_single_cats_widget extends WP_widget_xxx {
+class fp_single_cats_widget extends WP_widget {
 	
 	/**
 	 * Widget setup.
 	 */
-	function fp_single_cats_widget(){
+	function __construct(){
 		/* Widget settings. */	
 		$widget_ops = array('classname' => 'feat-cat single-cats', 'description' => 'Displays the single categories section on homepage.');
 		
 		/* Create the widget. */
-		$this->WP_Widget('fp_single_cats_widget', 'FairPixels: Homepage Single Categories', $widget_ops);
+		parent::__construct('fp_single_cats_widget', 'FairPixels: Homepage Single Categories', $widget_ops);
 	}
 	
 	/**

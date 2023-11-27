@@ -1,1 +1,0 @@
-[18-Jul-2017 16:46:30 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/alqalamm/public_html/news/wp-content/themes/fp_wolf/framework/ajaxload/functions.php on line 71

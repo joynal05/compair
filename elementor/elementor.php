@@ -37,14 +37,12 @@ define( 'ELEMENTOR_PATH', plugin_dir_path( ELEMENTOR__FILE__ ) );
 if ( defined( 'ELEMENTOR_TESTS' ) && ELEMENTOR_TESTS ) {
 	define( 'ELEMENTOR_URL', 'file://' . ELEMENTOR_PATH );
 } else {
-	//define( 'ELEMENTOR_URL', plugins_url( '/', ELEMENTOR__FILE__ ) );
-	define( 'ELEMENTOR_URL', 'https://www.dubicars.com/news/wp-content/plugins/elementor/');
+	define( 'ELEMENTOR_URL', plugins_url( '/', ELEMENTOR__FILE__ ) );
 }
 
 define( 'ELEMENTOR_MODULES_PATH', plugin_dir_path( ELEMENTOR__FILE__ ) . '/modules' );
 define( 'ELEMENTOR_ASSETS_PATH', ELEMENTOR_PATH . 'assets/' );
-//define( 'ELEMENTOR_ASSETS_URL', ELEMENTOR_URL . 'assets/' );
-define( 'ELEMENTOR_ASSETS_URL',  'https://www.dubicars.com/news/wp-content/plugins/elementor/assets/' );
+define( 'ELEMENTOR_ASSETS_URL', ELEMENTOR_URL . 'assets/' );
 
 add_action( 'plugins_loaded', 'elementor_load_plugin_textdomain' );
 

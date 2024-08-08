@@ -1,0 +1,216 @@
+<style>
+        .emertze-top-right-fold {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .emertze-top-right-fold:after {
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            background: #FFFFFF;
+            content: "";
+            top: -66px;
+            right: -66px;
+            z-index: 2;
+            transform: rotate(45deg);
+        }
+            
+        .wsa-timeline-item-content .number {
+            width: 35.2px;
+            height: 35.2px;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            left: 0;
+            position: absolute;
+            background: #ffe9ef;
+            color: #FF1F63;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        .wsa-timeline-item-content {
+            position: relative;
+            padding-left: 60px;
+        }
+        .content p {font-family: DM Sans;font-size: 12px;font-weight: 500;line-height: 14.4px;letter-spacing: 0.07em;text-align: left;color: #00000066;margin-bottom: 6px;}
+        
+        .content h3 {
+            font-family: DM Sans;
+            font-size: 21px;
+            font-weight: 400;
+            line-height: 29.4px;
+            letter-spacing: -0.01em;
+            text-align: left;
+        }
+        
+        .wsa-timeline-item {
+            display: inline-block;
+            padding-bottom: 50px;
+            position: relative;
+            z-index: 3;
+        }
+        
+        .wsa-timeline-item:after {height: 120%;width: 2px;content: "";background: #ffe9ef;position: absolute;left: 17px;top: 0;z-index: -1;}
+        
+        .wsa-timeline-item:last-child:after {
+            display: none;
+        }
+        .wsa-timeline-item:last-child .number {
+            background: #ff1f63;
+            color: #fff;
+        }
+        .emertxe-onscroll-animation *{
+            transition: 0.5s;
+        }
+        .emertxe-onscroll-animation-active .emertxe--animation-image-1 figure.elementor-image-box-img {
+            transform: rotate(-5deg) scale(0.95);
+            overflow: hidden !important;
+        }
+        .emertxe-onscroll-animation-active .emertxe--animation-image-1 figure.elementor-image-box-img img{
+            transform: rotate(5deg) scale(1.1) ;
+            
+        }
+        
+        .emertxe-onscroll-animation-active .emertxe--animation-image-2 figure.elementor-image-box-img {
+            transform: rotate(5deg ) scale(0.95);
+            overflow: hidden !important;
+        }
+        .emertxe-onscroll-animation-active .emertxe--animation-image-2 figure.elementor-image-box-img img{
+            transform: rotate(-5deg) scale(1.1);
+        }
+        .wsa-site-landing-footer-wrapper .wsa-site-footer-wrapper {
+            background: #381653;
+        }
+        
+        .wsa-site-landing-footer-wrapper .wsa-footer-bottom-rotate-area {
+            background: #220D32;
+        }
+        
+        .wsa-site-landing-footer-wrapper .wsa-footer-social-icons ul li a {
+            color: #3842C7;
+        }
+        
+        .wsa-site-landing-footer-wrapper a.wsa-footer-bottom-logo img {
+             -webkit-filter: grayscale(100%) brightness(1.5); /* Safari 6.0 - 9.0 */
+             filter: grayscale(100%) brightness(1.5);
+        }
+        .emertxe-landing-video-carousel {
+            display: flex !important;
+            flex-direction: column-reverse;
+            gap: 22px;
+        }
+        
+        .owl-dots {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        button.pagi-btn {
+            margin: 0;
+            padding: 0;
+            background: transparent;
+            border-radius: 100px;
+            padding: 5px;
+            border: 1px solid #eee;
+        }
+        
+        button.pagi-btn img {
+            height: 44px;
+            width: 44px;
+            pointer-events: none;
+        }
+        
+        .owl-dot.active button.pagi-btn {
+            border: 2px solid #ff1fb2;
+        }
+        
+        .emertxe-landing-video-carousel-item {
+            width: 100%;
+            height: 514px;
+            position: relative;
+            margin: 10px;
+            border-radius: 10px;
+            background-size: cover;
+        }
+        
+        .emertxe-landing-video-carousel-item:before {
+            height: calc(100% + 10px);
+            width: calc(100% + 10px);
+            position: absolute;
+            content: "";
+            border: 2px solid #FF1F62;
+            border-radius: 12px;
+            left: -5px;
+            top: -5px;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s;
+        }
+        
+        .owl-item.center .emertxe-landing-video-carousel-item:before {
+            visibility: visible;
+            opacity: 1;
+        }
+        .owl-carousel .owl-stage-outer {
+            overflow: unset;
+        }
+        .emertxe-landing-video-carousel-content {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: 0.3s !important;
+            padding: 20px;
+            background: rgb(0, 0, 0);
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.40940126050420167) 77%, rgba(0, 0, 0, 0) 100%);
+        }
+        
+        .emertxe-landing-video-carousel-item:hover .emertxe-landing-video-carousel-content {
+            bottom: 0;
+            height: 250px;
+        }
+        .emertxe-landing-video-carousel-content * {
+            color: #fff;
+        }
+        .emertxe-landing-video-carousel-item a.wsa-viswo-popup {
+            height: 100%;
+            width: 100%;
+        }
+        .emertxe-cash-icon-title img {
+            width: 0;
+            transform: scale(0);
+            transition: 0.3s;
+        }
+        
+        .emertxe-animated-section.emertxe-active .emertxe-cash-icon-title img {
+            transform: scale(1);
+            width: 100px;
+        }
+        .wsa-timeline-item:last-child .number:after {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            box-shadow: inset 0 0 5px #ff1f634a;
+            border-radius: 100px;
+            transform: scale(1);
+        }
+        
+        .wsa-timeline-item:last-child.emertxe-active .number:after {
+            transform: scale(2.5);
+            transition: 0.3s;
+        }
+        .emertxe--animation-image-2 .elementor-image-box-wrapper {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+            
+        </style>
+        

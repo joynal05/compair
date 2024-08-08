@@ -1,4 +1,0 @@
-[14-Sep-2017 20:26:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home3/alqalamm/public_html/news/wp-content/plugins/hello.php:60
-Stack trace:
-#0 {main}
-  thrown in /home3/alqalamm/public_html/news/wp-content/plugins/hello.php on line 60

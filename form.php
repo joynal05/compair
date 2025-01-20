@@ -8,6 +8,15 @@
     <input type='text' style='display:none;' name='returnURL' value='https://webinar.zoho.com/postregister' />
     <input type='text' style='display:none;' name='sysId' value='4248645000000367635' />
     <input type='text' style='display:none;' name='isEmbedForm' value='true' />
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <table border=0 cellspacing=0 cellpadding='6' style='background-color:#ffffff;background-color:white;color:black'>
       <td style='width: 100%; display: none;'>
         <select id='timezone' name='timezone' style='width: inherit;'>
@@ -374,6 +383,20 @@
           <input type='reset' name='reset' style='font-size:12px;color:black; display: none;' value='Reset'></input>
       </tr>
     </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     <script>
       var mndFileds = new Array('NAME', 'REGISTRATIONCF1', 'EMAIL', 'REGISTRATIONCF7');
       var fldLangVal = new Array('First Name', 'Last Name', 'Email', 'Phone');

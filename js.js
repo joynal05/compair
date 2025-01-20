@@ -116,6 +116,13 @@ function zf_ValidCheck() {
           }
         } else if (checkType == "c8") { // No I18N
           zf_ValidateSignature(fieldObj);
+        } else if (checkType == "c9") { // No I18N
+          if (!zf_ValidateMonthYearFormat(fieldObj)) {
+            isValid = false;
+            fieldObj.focus();
+            zf_ShowErrorMsg(zf_FieldArray[ind]);
+            return false;
+          }
         }
       }
     }
@@ -226,7 +233,7 @@ function zf_ValidateLiveUrl(elem) {
   if (urlValue !== null && typeof (urlValue) !== "undefined") {
     urlValue = urlValue.replace(/^\s+|\s+$/g, '');
     if (urlValue !== "") {
-      var urlregex = new RegExp("^((((h|H)(t|T)|(f|F))(t|T)(p|P)((s|S)?)://[-.\\w]*)|(((w|W){3}\\.)[-.\\w]+))(/?)([-\\w.?,:'/\\\\+=&;%$#@()!~]*)?$"); // Same regex as website_url in security-regex.xml. But single backslash is replaced with two backslashes.
+      var urlregex = new RegExp("^(((https|http|ftps|ftp)://[a-zA-Z\\d]+((_|-|@)[a-zA-Z\\d]+)*(\\.[a-zA-Z\\d]+((_|-|@)[a-zA-Z\\d]+)*)+(:\\d{1,5})?)|((w|W){3}(\\.[a-zA-Z\\d]+((_|-|@)[a-zA-Z\\d]+)*){2,}(:\\d{1,5})?)|([a-zA-Z\\d]+((_|-)[a-zA-Z\\d]+)*(\\.[a-zA-Z\\d]+((_|-)[a-zA-Z\\d]+)*)+(:\\d{1,5})?))(/[-\\w.?,:'/\\\\+=&;%$#@()!~]*)?$", "i"); // This regex is taken from LiveFieldsUtil.isValidWebSiteFieldURL() method. Changes: i) Add ^ at the beginning and $ at the end. ii) Remove ?i before https and adjust () around https. iii) Add "i" in the RegExp constructor. // No I18N
       return (urlregex.test(urlValue));
     }
   }
@@ -331,5 +338,14 @@ function zf_FocusNext(elem, event) {
     if (elem.value.length == 3) {
       document.getElementsByName(compname + "_second")[0].focus();
     }
+  }
+}
+
+function zf_ValidateMonthYearFormat(inpElem) {
+  var monthYearValue = inpElem.value.replace(/^\s+|\s+$/g, '');
+  if (monthYearValue == "") {
+    return true;
+  } else {
+    return (zf_MonthYearRegex.test(monthYearValue));
   }
 }

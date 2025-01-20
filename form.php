@@ -1,16 +1,13 @@
 <div id='zmWebToEntityForm' class="wsa-zoho-individual-webinar-register-form" style="width:100%;margin:auto;">
   <META HTTP-EQUIV='content-type' CONTENT='text/html;charset = UTF-8' />
-  <form action='https://webinar.zoho.com/meeting/WebForm' name=WebForm4248645000000367645 method='POST'
-    onSubmit='javascript:document.charset="UTF-8"; return checkMandatory4248645000000367645()' accept-charset='UTF-8'>
-    <input type='text' style='display:none;' name='xnQsjsdp'
-      value='b2a95cf358c1af4c833367be332c6f69a5e2dc8e2dd6b9653b10177ba09caa09' />
+  <form action='https://webinar.zoho.com/meeting/WebForm' name=WebForm4248645000000367645 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory4248645000000367645()' accept-charset='UTF-8'>
+    <input type='text' style='display:none;' name='xnQsjsdp' value='b2a95cf358c1af4c833367be332c6f69a5e2dc8e2dd6b9653b10177ba09caa09' />
     <input type='hidden' name='zc_gad' id='zc_gad' value='' />
-    <input type='text' style='display:none;' name='xmIwtLD'
-      value='1adf9987e8ecfe7607d78f6c0b9e02cafb1ceaaddf80fa39d816397073c789b8c33903092ce5fb29e867010c91c8b435' />
-    <input type='text' style='display:none;' name='actionType' value='UmVnaXN0cmF0aW9ucw==' /> <input type='text'
-      style='display:none;' name='returnURL' value='https://webinar.zoho.com/postregister' /> <input type='text'
-      style='display:none;' name='sysId' value='4248645000000367635' /> <input type='text' style='display:none;'
-      name='isEmbedForm' value='true' />
+    <input type='text' style='display:none;' name='xmIwtLD' value='1adf9987e8ecfe7607d78f6c0b9e02cafb1ceaaddf80fa39d816397073c789b8c33903092ce5fb29e867010c91c8b435' />
+    <input type='text' style='display:none;' name='actionType' value='UmVnaXN0cmF0aW9ucw==' />
+    <input type='text' style='display:none;' name='returnURL' value='https://webinar.zoho.com/postregister' />
+    <input type='text' style='display:none;' name='sysId' value='4248645000000367635' />
+    <input type='text' style='display:none;' name='isEmbedForm' value='true' />
     <table border=0 cellspacing=0 cellpadding='6' style='background-color:#ffffff;background-color:white;color:black'>
       <td style='width: 100%; display: none;'>
         <select id='timezone' name='timezone' style='width: inherit;'>
@@ -23,8 +20,7 @@
           <option value='Asia/Aqtau'>( GMT +05:00 ) West Kazakhstan Time (Asia/Aqtau)</option>
           <option value='Pacific/Kwajalein'>( GMT +12:00 ) Marshall Islands Time (Pacific/Kwajalein)</option>
           <option value='America/El_Salvador'>( GMT -06:00 ) Central Standard Time (America/El_Salvador)</option>
-          <option value='America/Kentucky/Monticello'>( GMT -05:00 ) Eastern Standard Time
-            (America/Kentucky/Monticello)</option>
+          <option value='America/Kentucky/Monticello'>( GMT -05:00 ) Eastern Standard Time (America/Kentucky/Monticello)</option>
           <option value='Pacific/Marquesas'>( GMT -09:30 ) Marquesas Time (Pacific/Marquesas)</option>
           <option value='Africa/El_Aaiun'>( GMT +01:00 ) Western European Summer Time (Africa/El_Aaiun)</option>
           <option value='Asia/Pontianak'>( GMT +07:00 ) Western Indonesia Time (Asia/Pontianak)</option>
@@ -33,8 +29,7 @@
           <option value='Pacific/Honolulu'>( GMT -10:00 ) Hawaii-Aleutian Standard Time (Pacific/Honolulu)</option>
           <option value='Pacific/Rarotonga'>( GMT -10:00 ) Cook Islands Standard Time (Pacific/Rarotonga)</option>
           <option value='Asia/Kuching'>( GMT +08:00 ) Malaysia Time (Asia/Kuching)</option>
-          <option value='America/North_Dakota/Center'>( GMT -06:00 ) Central Standard Time
-            (America/North_Dakota/Center)</option>
+          <option value='America/North_Dakota/Center'>( GMT -06:00 ) Central Standard Time (America/North_Dakota/Center)</option>
           <option value='America/Guatemala'>( GMT -06:00 ) Central Standard Time (America/Guatemala)</option>
           <option value='Australia/Hobart'>( GMT +11:00 ) Australian Eastern Daylight Time (Australia/Hobart)</option>
           <option value='Europe/London'>( GMT +00:00 ) Greenwich Mean Time (Europe/London)</option>
@@ -42,12 +37,10 @@
           <option value='America/Belize'>( GMT -06:00 ) Central Standard Time (America/Belize)</option>
           <option value='America/Panama'>( GMT -05:00 ) Eastern Standard Time (America/Panama)</option>
           <option value='Asia/Baghdad'>( GMT +03:00 ) Arabian Standard Time (Asia/Baghdad)</option>
-          <option value='America/Indiana/Tell_City'>( GMT -06:00 ) Central Standard Time (America/Indiana/Tell_City)
-          </option>
+          <option value='America/Indiana/Tell_City'>( GMT -06:00 ) Central Standard Time (America/Indiana/Tell_City) </option>
           <option value='America/Tijuana'>( GMT -08:00 ) Pacific Standard Time (America/Tijuana)</option>
           <option value='America/Managua'>( GMT -06:00 ) Central Standard Time (America/Managua)</option>
-          <option value='America/Indiana/Petersburg'>( GMT -05:00 ) Eastern Standard Time (America/Indiana/Petersburg)
-          </option>
+          <option value='America/Indiana/Petersburg'>( GMT -05:00 ) Eastern Standard Time (America/Indiana/Petersburg) </option>
           <option value='Europe/Brussels'>( GMT +01:00 ) Central European Standard Time (Europe/Brussels)</option>
           <option value='Asia/Yerevan'>( GMT +04:00 ) Armenia Standard Time (Asia/Yerevan)</option>
           <option value='America/Chihuahua'>( GMT -06:00 ) Central Standard Time (America/Chihuahua)</option>
@@ -59,22 +52,17 @@
           <option value='America/Chicago'>( GMT -06:00 ) Central Standard Time (America/Chicago)</option>
           <option value='America/Halifax'>( GMT -04:00 ) Atlantic Standard Time (America/Halifax)</option>
           <option value='Antarctica/Rothera'>( GMT -03:00 ) Rothera Time (Antarctica/Rothera)</option>
-          <option value='America/Indiana/Indianapolis'>( GMT -05:00 ) Eastern Standard Time
-            (America/Indiana/Indianapolis)</option>
+          <option value='America/Indiana/Indianapolis'>( GMT -05:00 ) Eastern Standard Time (America/Indiana/Indianapolis)</option>
           <option value='America/Tegucigalpa'>( GMT -06:00 ) Central Standard Time (America/Tegucigalpa)</option>
           <option value='Asia/Damascus'>( GMT +03:00 ) Eastern European Standard Time (Asia/Damascus)</option>
           <option value='Europe/Istanbul'>( GMT +03:00 ) Turkey Time (Europe/Istanbul)</option>
           <option value='America/Eirunepe'>( GMT -05:00 ) Acre Standard Time (America/Eirunepe)</option>
-          <option value='America/Argentina/San_Luis'>( GMT -03:00 ) Western Argentina Standard Time
-            (America/Argentina/San_Luis)</option>
-          <option value='America/Miquelon'>( GMT -03:00 ) St. Pierre & Miquelon Standard Time (America/Miquelon)
-          </option>
-          <option value='America/Argentina/Catamarca'>( GMT -03:00 ) Argentina Standard Time
-            (America/Argentina/Catamarca)</option>
+          <option value='America/Argentina/San_Luis'>( GMT -03:00 ) Western Argentina Standard Time (America/Argentina/San_Luis)</option>
+          <option value='America/Miquelon'>( GMT -03:00 ) St. Pierre & Miquelon Standard Time (America/Miquelon) </option>
+          <option value='America/Argentina/Catamarca'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/Catamarca)</option>
           <option value='America/Santiago'>( GMT -03:00 ) Chile Summer Time (America/Santiago)</option>
           <option value='Asia/Baku'>( GMT +04:00 ) Azerbaijan Standard Time (Asia/Baku)</option>
-          <option value='America/Argentina/Ushuaia'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/Ushuaia)
-          </option>
+          <option value='America/Argentina/Ushuaia'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/Ushuaia) </option>
           <option value='America/La_Paz'>( GMT -04:00 ) Bolivia Time (America/La_Paz)</option>
           <option value='Asia/Taipei'>( GMT +08:00 ) Taipei Standard Time (Asia/Taipei)</option>
           <option value='Asia/Manila'>( GMT +08:00 ) Philippine Standard Time (Asia/Manila)</option>
@@ -84,19 +72,15 @@
           <option value='America/Grand_Turk'>( GMT -05:00 ) Eastern Standard Time (America/Grand_Turk)</option>
           <option value='Asia/Samarkand'>( GMT +05:00 ) Uzbekistan Standard Time (Asia/Samarkand)</option>
           <option value='Asia/Yangon'>( GMT +06:30 ) Myanmar Time (Asia/Yangon)</option>
-          <option value='America/Argentina/Cordoba'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/Cordoba)
-          </option>
-          <option value='America/Indiana/Marengo'>( GMT -05:00 ) Eastern Standard Time (America/Indiana/Marengo)
-          </option>
+          <option value='America/Argentina/Cordoba'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/Cordoba) </option>
+          <option value='America/Indiana/Marengo'>( GMT -05:00 ) Eastern Standard Time (America/Indiana/Marengo) </option>
           <option value='Asia/Almaty'>( GMT +05:00 ) East Kazakhstan Time (Asia/Almaty)</option>
-          <option value='America/Punta_Arenas'>( GMT -03:00 ) Punta Arenas Standard Time (America/Punta_Arenas)
-          </option>
+          <option value='America/Punta_Arenas'>( GMT -03:00 ) Punta Arenas Standard Time (America/Punta_Arenas) </option>
           <option value='Asia/Dubai'>( GMT +04:00 ) Gulf Standard Time (Asia/Dubai)</option>
           <option value='America/Araguaina'>( GMT -03:00 ) Brasilia Standard Time (America/Araguaina)</option>
           <option value='America/Mexico_City'>( GMT -06:00 ) Central Standard Time (America/Mexico_City)</option>
           <option value='Asia/Novosibirsk'>( GMT +07:00 ) Novosibirsk Standard Time (Asia/Novosibirsk)</option>
-          <option value='America/Argentina/Salta'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/Salta)
-          </option>
+          <option value='America/Argentina/Salta'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/Salta) </option>
           <option value='Africa/Tunis'>( GMT +01:00 ) Central European Standard Time (Africa/Tunis)</option>
           <option value='Asia/Jerusalem'>( GMT +02:00 ) Israel Standard Time (Asia/Jerusalem)</option>
           <option value='Europe/Andorra'>( GMT +01:00 ) Central European Standard Time (Europe/Andorra)</option>
@@ -106,8 +90,7 @@
           <option value='Pacific/Kiritimati'>( GMT +14:00 ) Line Islands Time (Pacific/Kiritimati)</option>
           <option value='America/Matamoros'>( GMT -06:00 ) Central Standard Time (America/Matamoros)</option>
           <option value='Pacific/Palau'>( GMT +09:00 ) Palau Time (Pacific/Palau)</option>
-          <option value='Europe/Kaliningrad'>( GMT +02:00 ) Eastern European Standard Time (Europe/Kaliningrad)
-          </option>
+          <option value='Europe/Kaliningrad'>( GMT +02:00 ) Eastern European Standard Time (Europe/Kaliningrad) </option>
           <option value='Asia/Riyadh'>( GMT +03:00 ) Arabian Standard Time (Asia/Riyadh)</option>
           <option value='America/Montevideo'>( GMT -03:00 ) Uruguay Standard Time (America/Montevideo)</option>
           <option value='Africa/Windhoek'>( GMT +02:00 ) Western African Time (Africa/Windhoek)</option>
@@ -130,8 +113,7 @@
           <option value='Europe/Bucharest'>( GMT +02:00 ) Eastern European Standard Time (Europe/Bucharest)</option>
           <option value='Pacific/Norfolk'>( GMT +12:00 ) Norfolk Summer Time (Pacific/Norfolk)</option>
           <option value='Asia/Tomsk'>( GMT +07:00 ) Tomsk Standard Time (Asia/Tomsk)</option>
-          <option value='America/Argentina/Mendoza'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/Mendoza)
-          </option>
+          <option value='America/Argentina/Mendoza'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/Mendoza) </option>
           <option value='Europe/Malta'>( GMT +01:00 ) Central European Standard Time (Europe/Malta)</option>
           <option value='Asia/Macau'>( GMT +08:00 ) China Standard Time (Asia/Macau)</option>
           <option value='Pacific/Tahiti'>( GMT -10:00 ) Tahiti Time (Pacific/Tahiti)</option>
@@ -141,8 +123,7 @@
           <option value='Pacific/Kanton'>( GMT +13:00 ) Kanton Standard Time (Pacific/Kanton)</option>
           <option value='Asia/Krasnoyarsk'>( GMT +07:00 ) Krasnoyarsk Standard Time (Asia/Krasnoyarsk)</option>
           <option value='PST'>( GMT -08:00 ) Pacific Standard Time (PST)</option>
-          <option value='America/Argentina/Rio_Gallegos'>( GMT -03:00 ) Argentina Standard Time
-            (America/Argentina/Rio_Gallegos)</option>
+          <option value='America/Argentina/Rio_Gallegos'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/Rio_Gallegos)</option>
           <option value='America/Edmonton'>( GMT -07:00 ) Mountain Standard Time (America/Edmonton)</option>
           <option value='America/Santo_Domingo'>( GMT -04:00 ) Atlantic Standard Time (America/Santo_Domingo)</option>
           <option value='Europe/Minsk'>( GMT +03:00 ) Moscow Standard Time (Europe/Minsk)</option>
@@ -154,8 +135,7 @@
           <option value='Europe/Rome'>( GMT +01:00 ) Central European Standard Time (Europe/Rome)</option>
           <option value='Indian/Mauritius'>( GMT +04:00 ) Mauritius Standard Time (Indian/Mauritius)</option>
           <option value='Asia/Magadan'>( GMT +11:00 ) Magadan Standard Time (Asia/Magadan)</option>
-          <option value='America/Port-au-Prince'>( GMT -05:00 ) Eastern Standard Time (America/Port-au-Prince)
-          </option>
+          <option value='America/Port-au-Prince'>( GMT -05:00 ) Eastern Standard Time (America/Port-au-Prince) </option>
           <option value='Asia/Ashgabat'>( GMT +05:00 ) Turkmenistan Standard Time (Asia/Ashgabat)</option>
           <option value='America/Regina'>( GMT -06:00 ) Central Standard Time (America/Regina)</option>
           <option value='America/Dawson_Creek'>( GMT -07:00 ) Mountain Standard Time (America/Dawson_Creek)</option>
@@ -166,8 +146,7 @@
           <option value='America/Fortaleza'>( GMT -03:00 ) Brasilia Standard Time (America/Fortaleza)</option>
           <option value='Asia/Dili'>( GMT +09:00 ) East Timor Time (Asia/Dili)</option>
           <option value='America/Denver'>( GMT -07:00 ) Mountain Standard Time (America/Denver)</option>
-          <option value='America/Hermosillo'>( GMT -07:00 ) Mexican Pacific Standard Time (America/Hermosillo)
-          </option>
+          <option value='America/Hermosillo'>( GMT -07:00 ) Mexican Pacific Standard Time (America/Hermosillo) </option>
           <option value='Europe/Saratov'>( GMT +04:00 ) Saratov Standard Time (Europe/Saratov)</option>
           <option value='America/Cancun'>( GMT -05:00 ) Eastern Standard Time (America/Cancun)</option>
           <option value='Pacific/Kosrae'>( GMT +11:00 ) Kosrae Time (Pacific/Kosrae)</option>
@@ -177,16 +156,14 @@
           <option value='Australia/Sydney'>( GMT +11:00 ) Australian Eastern Daylight Time (Australia/Sydney)</option>
           <option value='America/Lima'>( GMT -05:00 ) Peru Standard Time (America/Lima)</option>
           <option value='Europe/Madrid'>( GMT +01:00 ) Central European Standard Time (Europe/Madrid)</option>
-          <option value='America/Bahia_Banderas'>( GMT -06:00 ) Central Standard Time (America/Bahia_Banderas)
-          </option>
+          <option value='America/Bahia_Banderas'>( GMT -06:00 ) Central Standard Time (America/Bahia_Banderas) </option>
           <option value='America/Havana'>( GMT -05:00 ) Cuba Standard Time (America/Havana)</option>
           <option value='America/Cambridge_Bay'>( GMT -07:00 ) Mountain Standard Time (America/Cambridge_Bay)</option>
           <option value='Asia/Colombo'>( GMT +05:30 ) India Standard Time (Asia/Colombo)</option>
           <option value='Asia/Choibalsan'>( GMT +08:00 ) Choibalsan Standard Time (Asia/Choibalsan)</option>
           <option value='Asia/Omsk'>( GMT +06:00 ) Omsk Standard Time (Asia/Omsk)</option>
           <option value='Asia/Dhaka'>( GMT +06:00 ) Bangladesh Standard Time (Asia/Dhaka)</option>
-          <option value='Australia/Brisbane'>( GMT +10:00 ) Australian Eastern Standard Time (Australia/Brisbane)
-          </option>
+          <option value='Australia/Brisbane'>( GMT +10:00 ) Australian Eastern Standard Time (Australia/Brisbane) </option>
           <option value='America/Barbados'>( GMT -04:00 ) Atlantic Standard Time (America/Barbados)</option>
           <option value='Asia/Urumqi'>( GMT +06:00 ) Xinjiang Standard Time (Asia/Urumqi)</option>
           <option value='Atlantic/Cape_Verde'>( GMT -01:00 ) Cape Verde Standard Time (Atlantic/Cape_Verde)</option>
@@ -210,25 +187,19 @@
           <option value='Europe/Chisinau'>( GMT +02:00 ) Eastern European Standard Time (Europe/Chisinau)</option>
           <option value='America/Rankin_Inlet'>( GMT -06:00 ) Central Standard Time (America/Rankin_Inlet)</option>
           <option value='America/Puerto_Rico'>( GMT -04:00 ) Atlantic Standard Time (America/Puerto_Rico)</option>
-          <option value='America/Argentina/La_Rioja'>( GMT -03:00 ) Argentina Standard Time
-            (America/Argentina/La_Rioja)</option>
+          <option value='America/Argentina/La_Rioja'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/La_Rioja)</option>
           <option value='Europe/Budapest'>( GMT +01:00 ) Central European Standard Time (Europe/Budapest)</option>
-          <option value='America/Argentina/Jujuy'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/Jujuy)
-          </option>
+          <option value='America/Argentina/Jujuy'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/Jujuy) </option>
           <option value='America/Porto_Velho'>( GMT -04:00 ) Amazon Standard Time (America/Porto_Velho)</option>
-          <option value='Australia/Eucla'>( GMT +08:45 ) Australian Central Western Standard Time (Australia/Eucla)
-          </option>
+          <option value='Australia/Eucla'>( GMT +08:45 ) Australian Central Western Standard Time (Australia/Eucla) </option>
           <option value='Asia/Sakhalin'>( GMT +11:00 ) Sakhalin Standard Time (Asia/Sakhalin)</option>
           <option value='Asia/Shanghai'>( GMT +08:00 ) China Standard Time (Asia/Shanghai)</option>
-          <option value='America/Scoresbysund'>( GMT -02:00 ) East Greenland Standard Time (America/Scoresbysund)
-          </option>
+          <option value='America/Scoresbysund'>( GMT -02:00 ) East Greenland Standard Time (America/Scoresbysund) </option>
           <option value='Europe/Helsinki'>( GMT +02:00 ) Eastern European Standard Time (Europe/Helsinki)</option>
           <option value='Asia/Beirut'>( GMT +02:00 ) Eastern European Standard Time (Asia/Beirut)</option>
-          <option value='Asia/Kamchatka'>( GMT +12:00 ) Petropavlovsk-Kamchatski Standard Time (Asia/Kamchatka)
-          </option>
+          <option value='Asia/Kamchatka'>( GMT +12:00 ) Petropavlovsk-Kamchatski Standard Time (Asia/Kamchatka) </option>
           <option value='Etc/GMT+12'>( GMT -12:00 ) GMT-12:00 (Etc/GMT+12)</option>
-          <option value='Pacific/Bougainville'>( GMT +11:00 ) Bougainville Standard Time (Pacific/Bougainville)
-          </option>
+          <option value='Pacific/Bougainville'>( GMT +11:00 ) Bougainville Standard Time (Pacific/Bougainville) </option>
           <option value='America/Nome'>( GMT -09:00 ) Alaska Standard Time (America/Nome)</option>
           <option value='NST'>( GMT +13:00 ) New Zealand Daylight Time (NST)</option>
           <option value='Africa/Sao_Tome'>( GMT +00:00 ) West Africa Standard Time (Africa/Sao_Tome)</option>
@@ -263,8 +234,7 @@
           <option value='America/Bahia'>( GMT -03:00 ) Brasilia Standard Time (America/Bahia)</option>
           <option value='America/Noronha'>( GMT -02:00 ) Fernando de Noronha Standard Time (America/Noronha)</option>
           <option value='America/Swift_Current'>( GMT -06:00 ) Central Standard Time (America/Swift_Current)</option>
-          <option value='Australia/Adelaide'>( GMT +10:30 ) Australian Central Daylight Time (Australia/Adelaide)
-          </option>
+          <option value='Australia/Adelaide'>( GMT +10:30 ) Australian Central Daylight Time (Australia/Adelaide) </option>
           <option value='America/Metlakatla'>( GMT -09:00 ) Alaska Standard Time (America/Metlakatla)</option>
           <option value='America/Paramaribo'>( GMT -03:00 ) Suriname Time (America/Paramaribo)</option>
           <option value='Asia/Qostanay'>( GMT +05:00 ) Kostanay Standard Time (Asia/Qostanay)</option>
@@ -274,8 +244,7 @@
           <option value='Europe/Sofia'>( GMT +02:00 ) Eastern European Standard Time (Europe/Sofia)</option>
           <option value='Europe/Prague'>( GMT +01:00 ) Central European Standard Time (Europe/Prague)</option>
           <option value='America/Whitehorse'>( GMT -07:00 ) Pacific Standard Time (America/Whitehorse)</option>
-          <option value='America/Indiana/Vincennes'>( GMT -05:00 ) Eastern Standard Time (America/Indiana/Vincennes)
-          </option>
+          <option value='America/Indiana/Vincennes'>( GMT -05:00 ) Eastern Standard Time (America/Indiana/Vincennes) </option>
           <option value='Antarctica/Mawson'>( GMT +05:00 ) Mawson Time (Antarctica/Mawson)</option>
           <option value='Pacific/Noumea'>( GMT +11:00 ) New Caledonia Standard Time (Pacific/Noumea)</option>
           <option value='Antarctica/Troll'>( GMT +00:00 ) Greenwich Mean Time (Antarctica/Troll)</option>
@@ -284,16 +253,13 @@
           <option value='Europe/Samara'>( GMT +04:00 ) Samara Standard Time (Europe/Samara)</option>
           <option value='Asia/Makassar'>( GMT +08:00 ) Central Indonesia Time (Asia/Makassar)</option>
           <option value='Pacific/Gambier'>( GMT -09:00 ) Gambier Time (Pacific/Gambier)</option>
-          <option value='America/Argentina/San_Juan'>( GMT -03:00 ) Argentina Standard Time
-            (America/Argentina/San_Juan)</option>
+          <option value='America/Argentina/San_Juan'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/San_Juan)</option>
           <option value='America/Inuvik'>( GMT -07:00 ) Mountain Standard Time (America/Inuvik)</option>
           <option value='America/Iqaluit'>( GMT -05:00 ) Eastern Standard Time (America/Iqaluit)</option>
-          <option value='Antarctica/Macquarie'>( GMT +11:00 ) Australian Eastern Daylight Time (Macquarie)
-            (Antarctica/Macquarie)</option>
+          <option value='Antarctica/Macquarie'>( GMT +11:00 ) Australian Eastern Daylight Time (Macquarie) (Antarctica/Macquarie)</option>
           <option value='Asia/Nicosia'>( GMT +02:00 ) Eastern European Standard Time (Asia/Nicosia)</option>
           <option value='America/Moncton'>( GMT -04:00 ) Atlantic Standard Time (America/Moncton)</option>
-          <option value='America/Indiana/Winamac'>( GMT -05:00 ) Eastern Standard Time (America/Indiana/Winamac)
-          </option>
+          <option value='America/Indiana/Winamac'>( GMT -05:00 ) Eastern Standard Time (America/Indiana/Winamac) </option>
           <option value='Asia/Pyongyang'>( GMT +09:00 ) Pyongyang Time (Asia/Pyongyang)</option>
           <option value='America/Boa_Vista'>( GMT -04:00 ) Amazon Standard Time (America/Boa_Vista)</option>
           <option value='Asia/Gaza'>( GMT +02:00 ) Eastern European Standard Time (Asia/Gaza)</option>
@@ -304,11 +270,9 @@
           <option value='Asia/Qyzylorda'>( GMT +05:00 ) East Kazakhstan Time (Asia/Qyzylorda)</option>
           <option value='Asia/Thimphu'>( GMT +06:00 ) Bhutan Time (Asia/Thimphu)</option>
           <option value='America/Yakutat'>( GMT -09:00 ) Alaska Standard Time (America/Yakutat)</option>
-          <option value='America/Kentucky/Louisville'>( GMT -05:00 ) Eastern Standard Time
-            (America/Kentucky/Louisville)</option>
+          <option value='America/Kentucky/Louisville'>( GMT -05:00 ) Eastern Standard Time (America/Kentucky/Louisville)</option>
           <option value='America/Ciudad_Juarez'>( GMT -07:00 ) Mountain Standard Time (America/Ciudad_Juarez)</option>
-          <option value='America/Argentina/Tucuman'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/Tucuman)
-          </option>
+          <option value='America/Argentina/Tucuman'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/Tucuman) </option>
           <option value='Asia/Kabul'>( GMT +04:30 ) Afghanistan Time (Asia/Kabul)</option>
           <option value='Asia/Ho_Chi_Minh'>( GMT +07:00 ) Indochina Time (Asia/Ho_Chi_Minh)</option>
           <option value='Antarctica/Casey'>( GMT +08:00 ) Casey Time (Antarctica/Casey)</option>
@@ -327,8 +291,7 @@
           <option value='Asia/Kolkata' selected>( GMT +05:30 ) India Standard Time (Asia/Kolkata)</option>
           <option value='MET'>( GMT +01:00 ) Middle Europe Time (MET)</option>
           <option value='America/Fort_Nelson'>( GMT -07:00 ) Mountain Standard Time (America/Fort_Nelson)</option>
-          <option value='Australia/Broken_Hill'>( GMT +10:30 ) Australian Central Daylight Time
-            (Australia/Broken_Hill)</option>
+          <option value='Australia/Broken_Hill'>( GMT +10:30 ) Australian Central Daylight Time (Australia/Broken_Hill)</option>
           <option value='Europe/Riga'>( GMT +02:00 ) Eastern European Standard Time (Europe/Riga)</option>
           <option value='America/Caracas'>( GMT -04:00 ) Venezuela Time (America/Caracas)</option>
           <option value='Asia/Hebron'>( GMT +02:00 ) Eastern European Standard Time (Asia/Hebron)</option>
@@ -339,20 +302,17 @@
           <option value='America/Asuncion'>( GMT -03:00 ) Paraguay Summer Time (America/Asuncion)</option>
           <option value='Asia/Srednekolymsk'>( GMT +11:00 ) Srednekolymsk Time (Asia/Srednekolymsk)</option>
           <option value='America/Boise'>( GMT -07:00 ) Mountain Standard Time (America/Boise)</option>
-          <option value='America/North_Dakota/New_Salem'>( GMT -06:00 ) Central Standard Time
-            (America/North_Dakota/New_Salem)</option>
+          <option value='America/North_Dakota/New_Salem'>( GMT -06:00 ) Central Standard Time (America/North_Dakota/New_Salem)</option>
           <option value='Asia/Anadyr'>( GMT +12:00 ) Anadyr Standard Time (Asia/Anadyr)</option>
           <option value='Pacific/Guam'>( GMT +10:00 ) Chamorro Standard Time (Pacific/Guam)</option>
-          <option value='Australia/Melbourne'>( GMT +11:00 ) Australian Eastern Daylight Time (Australia/Melbourne)
-          </option>
+          <option value='Australia/Melbourne'>( GMT +11:00 ) Australian Eastern Daylight Time (Australia/Melbourne) </option>
           <option value='Asia/Irkutsk'>( GMT +08:00 ) Irkutsk Standard Time (Asia/Irkutsk)</option>
           <option value='Atlantic/Bermuda'>( GMT -04:00 ) Atlantic Standard Time (Atlantic/Bermuda)</option>
           <option value='America/Dawson'>( GMT -07:00 ) Pacific Standard Time (America/Dawson)</option>
           <option value='America/Costa_Rica'>( GMT -06:00 ) Central Standard Time (America/Costa_Rica)</option>
           <option value='America/Winnipeg'>( GMT -06:00 ) Central Standard Time (America/Winnipeg)</option>
           <option value='America/Indiana/Knox'>( GMT -06:00 ) Central Standard Time (America/Indiana/Knox)</option>
-          <option value='America/North_Dakota/Beulah'>( GMT -06:00 ) Central Standard Time
-            (America/North_Dakota/Beulah)</option>
+          <option value='America/North_Dakota/Beulah'>( GMT -06:00 ) Central Standard Time (America/North_Dakota/Beulah)</option>
           <option value='Atlantic/Faroe'>( GMT +00:00 ) Western European Standard Time (Atlantic/Faroe)</option>
           <option value='Asia/Amman'>( GMT +03:00 ) Eastern European Standard Time (Asia/Amman)</option>
           <option value='SystemV/AST4ADT'>( GMT -04:00 ) Atlantic Standard Time (SystemV/AST4ADT)</option>
@@ -364,43 +324,43 @@
           <option value='Europe/Dublin'>( GMT +00:00 ) Greenwich Mean Time (Europe/Dublin)</option>
           <option value='America/Toronto'>( GMT -05:00 ) Eastern Standard Time (America/Toronto)</option>
           <option value='Asia/Singapore'>( GMT +08:00 ) Singapore Standard Time (Asia/Singapore)</option>
-          <option value='Australia/Lindeman'>( GMT +10:00 ) Australian Eastern Standard Time (Australia/Lindeman)
-          </option>
+          <option value='Australia/Lindeman'>( GMT +10:00 ) Australian Eastern Standard Time (Australia/Lindeman) </option>
           <option value='America/Los_Angeles'>( GMT -08:00 ) Pacific Standard Time (America/Los_Angeles)</option>
           <option value='America/Monterrey'>( GMT -06:00 ) Central Standard Time (America/Monterrey)</option>
-          <option value='America/Argentina/Buenos_Aires'>( GMT -03:00 ) Argentina Standard Time
-            (America/Argentina/Buenos_Aires)</option>
+          <option value='America/Argentina/Buenos_Aires'>( GMT -03:00 ) Argentina Standard Time (America/Argentina/Buenos_Aires)</option>
           <option value='America/Jamaica'>( GMT -05:00 ) Eastern Standard Time (America/Jamaica)</option>
           <option value='Pacific/Guadalcanal'>( GMT +11:00 ) Solomon Islands Time (Pacific/Guadalcanal)</option>
           <option value='Europe/Athens'>( GMT +02:00 ) Eastern European Standard Time (Europe/Athens)</option>
           <option value='Asia/Bishkek'>( GMT +06:00 ) Kyrgyzstan Time (Asia/Bishkek)</option>
           <option value='Atlantic/Stanley'>( GMT -03:00 ) Falkland Islands Standard Time (Atlantic/Stanley)</option>
-        </select></td>
+        </select>
+      </td>
       </tr>
       <tr>
-        <td style='width: 100%;'><input type='text' style='width: 100%;' maxlength='40' name='NAME'
-            placeholder="First Name"></input></td>
-      </tr>
-      <tr>
-        <td style='width: 100%;'><input type='text' style='width: 100%;' maxlength='100' name='REGISTRATIONCF1'
-            placeholder="Last Name"></input>
+        <td style='width: 100%;'>
+          <input type='text' style='width: 100%;' maxlength='40' name='NAME' placeholder="First Name"></input>
         </td>
       </tr>
       <tr>
-        <td style='width: 100%;'><input type='text' style='width: 100%;' maxlength='251' name='EMAIL'
-            placeholder="Email *"></input></td>
+        <td style='width: 100%;'>
+          <input type='text' style='width: 100%;' maxlength='100' name='REGISTRATIONCF1' placeholder="Last Name"></input>
+        </td>
       </tr>
       <tr>
-        <td style='width: 100%;'><input type='text' style='width: 100%;' maxlength='100' name='REGISTRATIONCF7'
-            placeholder="Phone *"></input>
+        <td style='width: 100%;'>
+          <input type='text' style='width: 100%;' maxlength='251' name='EMAIL' placeholder="Email *"></input>
+        </td>
+      </tr>
+      <tr>
+        <td style='width: 100%;'>
+          <input type='text' style='width: 100%;' maxlength='100' name='REGISTRATIONCF7' placeholder="Phone *"></input>
         </td>
       </tr>
       <script type='text/javascript'>
         handleRecurringDateTimeChange(document.querySelector('#recurringAllDateTime'));
+
         function handleRecurringDateTimeChange(el) {
-          var selected = document.querySelector('#recurringAllDateTime') && document.querySelector(
-            '#recurringAllDateTime').options && document.querySelector('#recurringAllDateTime').options[el
-            .selectedIndex];
+          var selected = document.querySelector('#recurringAllDateTime') && document.querySelector('#recurringAllDateTime').options && document.querySelector('#recurringAllDateTime').options[el.selectedIndex];
           if (selected) {
             var entityId = selected.getAttribute('data-campaignid');
             var sysIdSel = '[name="sysId"]';
@@ -410,9 +370,7 @@
       </script>
       <tr>
         <td colspan='2' align='center'>
-          <input
-            style="font-size:12px;color:black;height: 56px;border-radius: 28px;background-color: #ff0078;width: 100%;color: #fff !important;font-weight: 700;font-size: 18px !important;"
-            type="submit" name="save" value="Submit">
+          <input style="font-size:12px;color:black;height: 56px;border-radius: 28px;background-color: #ff0078;width: 100%;color: #fff !important;font-weight: 700;font-size: 18px !important;" type="submit" name="save" value="Submit">
           <input type='reset' name='reset' style='font-size:12px;color:black; display: none;' value='Reset'></input>
       </tr>
     </table>
@@ -421,9 +379,11 @@
       var fldLangVal = new Array('First Name', 'Last Name', 'Email', 'Phone');
       var name = '';
       var email = '';
+
       function reloadImg() {
         document.getElementById('imgid').src = document.getElementById('imgid').src;
       }
+
       function checkMandatory4248645000000367645() {
         var emailPattern = /^([^\s@<>]{1,200})@([^\s@<>]{1,300})$/;
         for (i = 0; i < mndFileds.length; i++) {
@@ -467,6 +427,7 @@
   .wsa-zoho-individual-webinar-register-form input {
     background: unset;
   }
+
   .wsa-zoho-individual-webinar-register-form table,
   .wsa-zoho-individual-webinar-register-form td,
   .wsa-zoho-individual-webinar-register-form th {

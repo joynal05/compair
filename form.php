@@ -387,7 +387,6 @@
         </td>
       </tr>
       <tr>
-
         <td style='width: 100%;'><input type='text' style='width: 100%;' maxlength='251' name='EMAIL'
             placeholder="Email *"></input></td>
       </tr>
@@ -398,7 +397,6 @@
       </tr>
       <script type='text/javascript'>
         handleRecurringDateTimeChange(document.querySelector('#recurringAllDateTime'));
-
         function handleRecurringDateTimeChange(el) {
           var selected = document.querySelector('#recurringAllDateTime') && document.querySelector(
             '#recurringAllDateTime').options && document.querySelector('#recurringAllDateTime').options[el
@@ -423,11 +421,9 @@
       var fldLangVal = new Array('First Name', 'Last Name', 'Email', 'Phone');
       var name = '';
       var email = '';
-
       function reloadImg() {
         document.getElementById('imgid').src = document.getElementById('imgid').src;
       }
-
       function checkMandatory4248645000000367645() {
         var emailPattern = /^([^\s@<>]{1,200})@([^\s@<>]{1,300})$/;
         for (i = 0; i < mndFileds.length; i++) {
@@ -467,16 +463,13 @@
     </script>
   </form>
 </div>
-
 <style>
   .wsa-zoho-individual-webinar-register-form input {
     background: unset;
   }
-
   .wsa-zoho-individual-webinar-register-form table,
   .wsa-zoho-individual-webinar-register-form td,
   .wsa-zoho-individual-webinar-register-form th {
     border: unset;
-
   }
 </style>

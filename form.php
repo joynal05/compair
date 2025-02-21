@@ -375,7 +375,8 @@ name='isEmbedForm' value='true' />
 <option value='Europe/Athens'>( GMT +02:00 ) Eastern European Standard Time (Europe/Athens)</option>
 <option value='Asia/Bishkek'>( GMT +06:00 ) Kyrgyzstan Time (Asia/Bishkek)</option>
 <option value='Atlantic/Stanley'>( GMT -03:00 ) Falkland Islands Standard Time (Atlantic/Stanley)</option>
-</select></td>
+</select>
+</td>
 </tr>
 <tr>
 <td style='width: 100%;'><input type='text' style='width: 100%;' maxlength='40' name='NAME'

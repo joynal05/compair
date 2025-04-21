@@ -6182,8 +6182,7 @@ span.elementor-button-content-wrapper {
   max-width: 384px;
   width: 100%;
   padding: 30px 28px;
-  background: #fff;
-  border: 1px solid #381653;
+  background: #381653;
 }
 .emertxe-landing-page-form h2 {
   font-family: DM Sans;
@@ -6191,7 +6190,7 @@ span.elementor-button-content-wrapper {
   font-weight: 700;
   line-height: 29.4px;
   text-align: left;
-  color: #1a1a1a;
+  color: #FFFFFFE5;
   margin-bottom: 20px;
 }
 .emertxe-landing-page-form-field-item {
@@ -6203,7 +6202,7 @@ span.elementor-button-content-wrapper {
   font-weight: 500;
   line-height: 12.62px;
   text-align: left;
-  color: #1a1a1a;
+  color: #FFFFFF;
   margin-bottom: 20px;
   gap: 10px;
   position: relative;
@@ -7207,4 +7206,15 @@ button.owl-dot.active {
 }
 .emertxe-author-avatar-meta h1 {
   font-size: 26px;
+}
+
+
+/*  */
+
+
+.emertxe-landing-page-form {
+  background: #381653;
+}
+.emertxe-landing-page-form h2 {
+  color: #FFFFFFE5;
 }
